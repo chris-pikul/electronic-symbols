@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+    <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5" d="M25 62.5h25l-12.5 25-12.5-25zm-3 25h31M0 24.56l37.5.44v37.5M0 124.69l37.5.31V87.5M93.75 50v50M150 24.94l-37.5.06v25L93.75 62.5M150 124.88l-37.5.12v-25L93.75 87.5"/>
+    <path d="m106.58 87.84-7.67 11.27 13.62.91-5.95-12.18z"/>
+    <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5" d="M58.44 62.5h18.3"/>
+    <path d="M74.55 69.98 87.5 62.5l-12.95-7.48v14.96z"/>
+    <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5" d="M58.44 87.5h18.3"/>
+    <path d="M74.55 94.98 87.5 87.5l-12.95-7.48v14.96z"/>
+    <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5">
+        <path d="M137.5 138.75v5h-5"/>
+        <path stroke-dasharray="10.45 10.45" d="M122.05 143.75H22.73"/>
+        <path d="M17.5 143.75h-5v-5"/>
+        <path stroke-dasharray="9.81 9.81" d="M12.5 128.94V16.15"/>
+        <path d="M12.5 11.25v-5h5"/>
+        <path stroke-dasharray="10.45 10.45" d="M27.95 6.25h99.32"/>
+        <path d="M132.5 6.25h5v5"/>
+        <path stroke-dasharray="9.81 9.81" d="M137.5 21.06v112.79"/>
+    </g>
+</svg>

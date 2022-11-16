@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+    <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5">
+        <circle cx="37.5" cy="37.38" r="6.25"/>
+        <path d="M0 37.31h31.25"/>
+        <circle cx="112.5" cy="37.38" r="6.25"/>
+        <path d="M150 37.44h-31.25m-75-3.31L112.5 6.25"/>
+        <g data-name="Switch-DPST">
+            <circle cx="37.5" cy="111.88" r="6.25"/>
+            <path d="M0 111.81h31.25"/>
+            <circle cx="112.5" cy="111.88" r="6.25"/>
+            <path d="M150 111.94h-31.25m-75-3.31 68.75-27.38"/>
+        </g>
+        <path d="M75 28.25v2.5"/>
+        <path stroke-dasharray="5.2 5.2" d="M75 35.95V85.4"/>
+        <path d="M75 88v2.5"/>
+    </g>
+</svg>
