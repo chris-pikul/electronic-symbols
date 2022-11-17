@@ -11,121 +11,121 @@ They where designed on a grid based on 25px, with 4 subdivisions.
 
 ## Included Components
 
-| Name   | Category | Filename | Symbol |
-|--------|----------|----------|--------|
-| Feedthrough Capacitor | Capacitor | `Capacitor-Feedthrough` | <img src='/JPG-ICO/Capacitor-Feedthrough.jpg?raw=true' /> |
-| Polarized Capacitor (IEC) | Capacitor | `Capacitor-IEC-Polarized` | <img src='/JPG-ICO/Capacitor-IEC-Polarized.jpg?raw=true' /> |
-| Trimmer Capacitor (IEC) | Capacitor | `Capacitor-IEC-Trimmer` | <img src='/JPG-ICO/Capacitor-IEC-Trimmer.jpg?raw=true' /> |
-| Variable Capacitor (IEC) | Capacitor | `Capacitor-IEC-Variable` | <img src='/JPG-ICO/Capacitor-IEC-Variable.jpg?raw=true' /> |
-| Capacitor (IEC) | Capacitor | `Capacitor-IEC` | <img src='/JPG-ICO/Capacitor-IEC.jpg?raw=true' /> |
-| Electrolytic Capacitor (US) | Capacitor | `Capacitor-US-Polarized` | <img src='/JPG-ICO/Capacitor-US-Polarized.jpg?raw=true' /> |
-| Capacitor (US) | Capacitor | `Capacitor-US` | <img src='/JPG-ICO/Capacitor-US.jpg?raw=true' /> |
-| Standard Diode | Diode | `Diode` | <img src='/JPG-ICO/Diode.jpg?raw=true' /> |
-| LASER Diode | Diode | `Diode-Laser` | <img src='/JPG-ICO/Diode-Laser.jpg?raw=true' /> |
-| LED | Diode | `Diode-LED` | <img src='/JPG-ICO/Diode-LED.jpg?raw=true' /> |
-| Photodiode | Diode | `Diode-Photodiode` | <img src='/JPG-ICO/Diode-Photodiode.jpg?raw=true' /> |
-| Shockley Diode | Diode | `Diode-Shockley` | <img src='/JPG-ICO/Diode-Shockley.jpg?raw=true' /> |
-| Shottky Diode | Diode | `Diode-Shottky` | <img src='/JPG-ICO/Diode-Shottky.jpg?raw=true' /> |
-| Tunnel Diode | Diode | `Diode-Tunnel` | <img src='/JPG-ICO/Diode-Tunnel.jpg?raw=true' /> |
-| Varicap Diode | Diode | `Diode-Varicap` | <img src='/JPG-ICO/Diode-Varicap.jpg?raw=true' /> |
-| Zener Diode | Diode | `Diode-Zener` | <img src='/JPG-ICO/Diode-Zener.jpg?raw=true' /> |
-| Chassis Ground | Ground | `Ground-Chassis` | <img src='/JPG-ICO/Ground-Chassis.jpg?raw=true' /> |
-| Common/Earth Ground | Ground | `Ground-General` | <img src='/JPG-ICO/Ground-General.jpg?raw=true' /> |
-| Digital/Signal Ground | Ground | `Ground-Signal` | <img src='/JPG-ICO/Ground-Signal.jpg?raw=true' /> |
-| Comparator | IC | `IC-Comparator` | <img src='/JPG-ICO/IC-Comparator.jpg?raw=true' /> |
-| Clocked-D Flip-Flop | IC | `IC-FlipFlop-ClockedD` | <img src='/JPG-ICO/IC-FlipFlop-ClockedD.jpg?raw=true' /> |
-| Clocked-JK Flip-Flop | IC | `IC-FlipFlop-ClockedJK` | <img src='/JPG-ICO/IC-FlipFlop-ClockedJK.jpg?raw=true' /> |
-| Clocked-T Flip-Flop | IC | `IC-FlipFlop-ClockedT` | <img src='/JPG-ICO/IC-FlipFlop-ClockedT.jpg?raw=true' /> |
-| Gated-D Flip-Flop | IC | `IC-FlipFlop-GatedD` | <img src='/JPG-ICO/IC-FlipFlop-GatedD.jpg?raw=true' /> |
-| Gated-SR Flip-Flop | IC | `IC-FlipFlop-GatedSR` | <img src='/JPG-ICO/IC-FlipFlop-GatedSR.jpg?raw=true' /> |
-| Simple-SR Flip-Flop | IC | `IC-FlipFlop-SimpleSR` | <img src='/JPG-ICO/IC-FlipFlop-SimpleSR.jpg?raw=true' /> |
-| Logic AND | IC | `IC-Logic-AND` | <img src='/JPG-ICO/IC-Logic-AND.jpg?raw=true' /> |
-| Buffer | IC | `IC-Logic-Buffer` | <img src='/JPG-ICO/IC-Logic-Buffer.jpg?raw=true' /> |
-| Inverter (Inverted Buffer) | IC | `IC-Logic-Inverter` | <img src='/JPG-ICO/IC-Logic-Inverter.jpg?raw=true' /> |
-| Logic NAND | IC | `IC-Logic-NAND` | <img src='/JPG-ICO/IC-Logic-NAND.jpg?raw=true' /> |
-| Logic NOR | IC | `IC-Logic-NOR` | <img src='/JPG-ICO/IC-Logic-NOR.jpg?raw=true' /> |
-| Logic OR | IC | `IC-Logic-OR` | <img src='/JPG-ICO/IC-Logic-OR.jpg?raw=true' /> |
-| Logic XNOR | IC | `IC-Logic-XNOR` | <img src='/JPG-ICO/IC-Logic-XNOR.jpg?raw=true' /> |
-| Logic XOR | IC | `IC-Logic-XOR` | <img src='/JPG-ICO/IC-Logic-XOR.jpg?raw=true' /> |
-| Operational Amplifier (OpAmp) | IC | `IC-OpAmp` | <img src='/JPG-ICO/IC-OpAmp.jpg?raw=true' /> |
-| Inverted Schmitt Trigger | IC | `IC-Schmitt-Inverted` | <img src='/JPG-ICO/IC-Schmitt-Inverted.jpg?raw=true' /> |
-| Schmitt Trigger | IC | `IC-Schmitt` | <img src='/JPG-ICO/IC-Schmitt.jpg?raw=true' /> |
-| Inductor (Air-Core) | Inductor | `Inductor` | <img src='/JPG-ICO/Inductor.jpg?raw=true' /> |
-| Ferrite Bead | Inductor | `Inductor-Ferrite-Bead` | <img src='/JPG-ICO/Inductor-Ferrite-Bead.jpg?raw=true' /> |
-| Inductor (Magnetic/Ferrite Core) | Inductor | `Inductor-Magnetic` | <img src='/JPG-ICO/Inductor-Magnetic.jpg?raw=true' /> |
-| Tapped Inductor | Inductor | `Inductor-Tapped` | <img src='/JPG-ICO/Inductor-Tapped.jpg?raw=true' /> |
-| Variable Inductor | Inductor | `Inductor-Variable` | <img src='/JPG-ICO/Inductor-Variable.jpg?raw=true' /> |
-| SPDT Relay (Common Style) | Relay | `Relay-COM-SPDT` | <img src='/JPG-ICO/Relay-COM-SPDT.jpg?raw=true' /> |
-| SPST Relay Normally-Closed (Common Style) | Relay | `Relay-COM-SPST-NC` | <img src='/JPG-ICO/Relay-COM-SPST-NC.jpg?raw=true' /> |
-| SPST Relay Normally-Open (Common Style) | Relay | `Relay-COM-SPST-NO` | <img src='/JPG-ICO/Relay-COM-SPST-NO.jpg?raw=true' /> |
-| SPDT Relay (IEC) | Relay | `Relay-IEC-SPDT` | <img src='/JPG-ICO/Relay-IEC-SPDT.jpg?raw=true' /> |
-| SPST Relay Normally-Closed (IEC) | Relay | `Relay-IEC-SPST-NC` | <img src='/JPG-ICO/Relay-IEC-SPST-NC.jpg?raw=true' /> |
-| SPST Relay Normally-Open (IEC) | Relay | `Relay-IEC-SPST-NO` | <img src='/JPG-ICO/Relay-IEC-SPST-NO.jpg?raw=true' /> |
-| SPDT Relay (US) | Relay | `Relay-US-SPDT` | <img src='/JPG-ICO/Relay-US-SPDT.jpg?raw=true' /> |
-| SPST Relay Normally-Closed (US) | Relay | `Relay-US-SPST-NC` | <img src='/JPG-ICO/Relay-US-SPST-NC.jpg?raw=true' /> |
-| SPST Relay Normally-Open (US) | Relay | `Relay-US-SPST-NO` | <img src='/JPG-ICO/Relay-US-SPST-NO.jpg?raw=true' /> |
-| Photoresistor (IEC) | Resistor | `Resistor-IEC-Photoresistor` | <img src='/JPG-ICO/Resistor-IEC-Photoresistor.jpg?raw=true' /> |
-| Potentiometer (IEC) | Resistor | `Resistor-IEC-Potentiometer` | <img src='/JPG-ICO/Resistor-IEC-Potentiometer.jpg?raw=true' /> |
-| Rheostat / Variable Resistor (IEC) | Resistor | `Resistor-IEC-Rheostat` | <img src='/JPG-ICO/Resistor-IEC-Rheostat.jpg?raw=true' /> |
-| Themistor (IEC) | Resistor | `Resistor-IEC-Thermistor` | <img src='/JPG-ICO/Resistor-IEC-Thermistor.jpg?raw=true' /> |
-| Trimmer / Trim-Pot (IEC) | Resistor | `Resistor-IEC-Trimmer` | <img src='/JPG-ICO/Resistor-IEC-Trimmer.jpg?raw=true' /> |
-| Varistor (IEC) | Resistor | `Resistor-IEC-Varistor` | <img src='/JPG-ICO/Resistor-IEC-Varistor.jpg?raw=true' /> |
-| Resistor (IEC) | Resistor | `Resistor-IEC` | <img src='/JPG-ICO/Resistor-IEC.jpg?raw=true' /> |
-| Photoresistor (IEEE/ANSI) | Resistor | Resistor-ANSI copy.jpg | <img src='/JPG-ICO/Resistor-ANSI copy.jpg?raw=true' /> |
-| Potentiometer (IEEE/ANSI) | Resistor | `Resistor-ANSI-Potentiometer` | <img src='/JPG-ICO/Resistor-ANSI-Potentiometer.jpg?raw=true' /> |
-| Rheostat / Variable Resistor (IEEE/ANSI) | Resistor | `Resistor-ANSI-Rheostat` | <img src='/JPG-ICO/Resistor-ANSI-Rheostat.jpg?raw=true' /> |
-| Thermistor (IEEE/ANSI) | Resistor | `Resistor-ANSI-Thermistor` | <img src='/JPG-ICO/Resistor-ANSI-Thermistor.jpg?raw=true' /> |
-| Trimmer / Trim-Pot (IEEE/ANSI) | Resistor | `Resistor-ANSI-Trimmer` | <img src='/JPG-ICO/Resistor-ANSI-Trimmer.jpg?raw=true' /> |
-| Varistor (IEEE/ANSI) | Resistor | `Resistor-ANSI-Varistor` | <img src='/JPG-ICO/Resistor-ANSI-Varistor.jpg?raw=true' /> |
-| Resistor (IEEE/ANSI) | Resistor | `Resistor-ANSI` | <img src='/JPG-ICO/Resistor-ANSI.jpg?raw=true' /> |
-| Memristor | Resistor | `Resistor-Memristor` | <img src='/JPG-ICO/Resistor-Memristor.jpg?raw=true' /> |
-| AC Voltage Source | Source | `Source-AC` | <img src='/JPG-ICO/Source-AC.jpg?raw=true' /> |
-| Battery (Multiple Cells) | Source | `Source-Battery-Multiple` | <img src='/JPG-ICO/Source-Battery-Multiple.jpg?raw=true' /> |
-| Battery (Single Cell) | Source | `Source-Battery-Single` | <img src='/JPG-ICO/Source-Battery-Single.jpg?raw=true' /> |
-| Controlled Current Source | Source | `Source-Current-Controlled` | <img src='/JPG-ICO/Source-Current-Controlled.jpg?raw=true' /> |
-| Current Source | Source | `Source-Current` | <img src='/JPG-ICO/Source-Current.jpg?raw=true' /> |
-| Controlled DC Source | Source | `Source-DC-Controlled` | <img src='/JPG-ICO/Source-DC-Controlled.jpg?raw=true' /> |
-| DC Voltage Source | Source | `Source-DC` | <img src='/JPG-ICO/Source-DC.jpg?raw=true' /> |
-| Photovoltaic Solar Cell | Source | `Source-Photovoltaic` | <img src='/JPG-ICO/Source-Photovoltaic.jpg?raw=true' /> |
-| Square Wave Generator | Source | `Source-Square` | <img src='/JPG-ICO/Source-Square.jpg?raw=true' /> |
-| Triangle Wave Generator | Source | `Source-Triangle` | <img src='/JPG-ICO/Source-Triangle.jpg?raw=true' /> |
-| Pushbutton Normally-Closed | Switch | `Pushbutton-NC` | <img src='/JPG-ICO/Pushbutton-NC.jpg?raw=true' /> |
-| Pushbutton Normally-Open | Switch | `Pushbutton-NO` | <img src='/JPG-ICO/Pushbutton-NO.jpg?raw=true' /> |
-| Pushbutton Two-Circuit | Switch | `Pushbutton-Two-Circuit` | <img src='/JPG-ICO/Pushbutton-Two-Circuit.jpg?raw=true' /> |
-| DPDT Switch | Switch | `Switch-DPDT` | <img src='/JPG-ICO/Switch-DPDT.jpg?raw=true' /> |
-| DPST Switch | Switch | `Switch-DPST` | <img src='/JPG-ICO/Switch-DPST.jpg?raw=true' /> |
-| SPDT Switch | Switch | `Switch-SPDT` | <img src='/JPG-ICO/Switch-SPDT.jpg?raw=true' /> |
-| SPST Switch | Switch | `Switch-SPST` | <img src='/JPG-ICO/Switch-SPST.jpg?raw=true' /> |
-| Transformer | Miscellaneous | `Transformer` | <img src='/JPG-ICO/Transformer.jpg?raw=true' /> |
-| Double-Center-Tapped Transformer | Transformer | `Transformer-Center-Double` | <img src='/JPG-ICO/Transformer-Center-Double.jpg?raw=true' /> |
-| Center-Tapped Transformer | Transformer | `Transformer-Center` | <img src='/JPG-ICO/Transformer-Center.jpg?raw=true' /> |
-| NPN Transistor | Transitor | `Transitor-BJT-NPN` | <img src='/JPG-ICO/Transitor-BJT-NPN.jpg?raw=true' /> |
-| PNP Transistor  | Transitor | `Transitor-BJT-PNP` | <img src='/JPG-ICO/Transitor-BJT-PNP.jpg?raw=true' /> |
-| NPN Darlington Pair | Transitor | `Transitor-Darlington-NPN` | <img src='/JPG-ICO/Transitor-Darlington-NPN.jpg?raw=true' /> |
-| PNP Darlington Pair | Transitor | `Transitor-Darlington-PNP` | <img src='/JPG-ICO/Transitor-Darlington-PNP.jpg?raw=true' /> |
-| JFET-N | Transitor | `Transitor-JFET-N` | <img src='/JPG-ICO/Transitor-JFET-N.jpg?raw=true' /> |
-| JFET-P | Transitor | `Transitor-JFET-P` | <img src='/JPG-ICO/Transitor-JFET-P.jpg?raw=true' /> |
-| N-Channel MOSFET in Depletion Mode | Transitor | `Transitor-MOSFET-N-Depletion` | <img src='/JPG-ICO/Transitor-MOSFET-N-Depletion.jpg?raw=true' /> |
-| N-Channel MOSFET in Enhancement Mode | Transitor | `Transitor-MOSFET-N-Enhancement` | <img src='/JPG-ICO/Transitor-MOSFET-N-Enhancement.jpg?raw=true' /> |
-| N-Channel MOSFET | Transitor | `Transitor-MOSFET-N` | <img src='/JPG-ICO/Transitor-MOSFET-N.jpg?raw=true' /> |
-| P-Channel MOSFET in Depletion Mode | Transitor | `Transitor-MOSFET-P-Depletion` | <img src='/JPG-ICO/Transitor-MOSFET-P-Depletion.jpg?raw=true' /> |
-| P-Channel MOSFET in Enhancement Mode | Transitor | `Transitor-MOSFET-P-Enhancement` | <img src='/JPG-ICO/Transitor-MOSFET-P-Enhancement.jpg?raw=true' /> |
-| P-Channel MOSFET | Transitor | `Transitor-MOSFET-P` | <img src='/JPG-ICO/Transitor-MOSFET-P.jpg?raw=true' /> |
-| Phototransistor | Transitor | `Transitor-Phototransitor` | <img src='/JPG-ICO/Transitor-Phototransitor.jpg?raw=true' /> |
-| Analog-to-Digital (ATD) Converter | Miscellaneous | `Analog-to-Digital` | <img src='/JPG-ICO/Analog-to-Digital.jpg?raw=true' /> |
-| Aerial Antenna | Miscellaneous | `Antenna-Aerial` | <img src='/JPG-ICO/Antenna-Aerial.jpg?raw=true' /> |
-| Dipole Antenna | Miscellaneous | `Antenna-Dipole` | <img src='/JPG-ICO/Antenna-Dipole.jpg?raw=true' /> |
-| Looped Antenna | Miscellaneous | `Antenna-Loop` | <img src='/JPG-ICO/Antenna-Loop.jpg?raw=true' /> |
-| Buzzer | Miscellaneous | `Buzzer` | <img src='/JPG-ICO/Buzzer.jpg?raw=true' /> |
-| Crystal Oscillator | Miscellaneous | `Crystal-Oscillator` | <img src='/JPG-ICO/Crystal-Oscillator.jpg?raw=true' /> |
-| Digital-to-Analog (DTA) Converter | Miscellaneous | `Digital-to-Analog` | <img src='/JPG-ICO/Digital-to-Analog.jpg?raw=true' /> |
-| Fuse (ANSI) | Miscellaneous | `Fuse-ANSI` | <img src='/JPG-ICO/Fuse-ANSI.jpg?raw=true' /> |
-| Fuse (IEC) | Miscellaneous | `Fuse-IEC` | <img src='/JPG-ICO/Fuse-IEC.jpg?raw=true' /> |
-| Fuse (IEEE) | Miscellaneous | `Fuse-IEEE` | <img src='/JPG-ICO/Fuse-IEEE.jpg?raw=true' /> |
-| Incadecent Lamp | Miscellaneous | `Lamp` | <img src='/JPG-ICO/Lamp.jpg?raw=true' /> |
-| Indicator Lamp | Miscellaneous | `Lamp-Indicator` | <img src='/JPG-ICO/Lamp-Indicator.jpg?raw=true' /> |
-| Loudspeaker / Speaker | Miscellaneous | `Loudspeaker` | <img src='/JPG-ICO/Loudspeaker.jpg?raw=true' /> |
-| Microphone (IEC) | Miscellaneous | `Microphone-IEC` | <img src='/JPG-ICO/Microphone-IEC.jpg?raw=true' /> |
-| Microphone (IEEE) | Miscellaneous | `Microphone-IEEE` | <img src='/JPG-ICO/Microphone-IEEE.jpg?raw=true' /> |
-| Optocoupler | Miscellaneous | `Optocoupler` | <img src='/JPG-ICO/Optocoupler.jpg?raw=true' /> |
-| Probe Point | Miscellaneous | `Probe-Point` | <img src='/JPG-ICO/Probe-Point.jpg?raw=true' /> |
+| Category | Name | Standard | Preview | Links |
+|:---------|:-----|:--------:|:-------:|:------|
+| Antenna | Looped Antenna | COM | <img src='/JPG-ICO/Antenna-COM-Loop.jpg?raw=true' /> | [SVG](./SVG/Antenna-COM-Loop.svg) [PNG](./PNG/Antenna-COM-Loop.png) [JPG](./JPG/Antenna-COM-Loop.jpg) |
+| Antenna | Dipole Antenna | COM | <img src='/JPG-ICO/Antenna-COM-Dipole.jpg?raw=true' /> | [SVG](./SVG/Antenna-COM-Dipole.svg) [PNG](./PNG/Antenna-COM-Dipole.png) [JPG](./JPG/Antenna-COM-Dipole.jpg) |
+| Antenna | Aerial Antenna | COM | <img src='/JPG-ICO/Antenna-COM-Aerial.jpg?raw=true' /> | [SVG](./SVG/Antenna-COM-Aerial.svg) [PNG](./PNG/Antenna-COM-Aerial.png) [JPG](./JPG/Antenna-COM-Aerial.jpg) |
+| Audio | Microphone | IEEE | <img src='/JPG-ICO/Audio-IEEE-Microphone.jpg?raw=true' /> | [SVG](./SVG/Audio-IEEE-Microphone.svg) [PNG](./PNG/Audio-IEEE-Microphone.png) [JPG](./JPG/Audio-IEEE-Microphone.jpg) |
+| Audio | Microphone | IEC | <img src='/JPG-ICO/Audio-IEC-Microphone.jpg?raw=true' /> | [SVG](./SVG/Audio-IEC-Microphone.svg) [PNG](./PNG/Audio-IEC-Microphone.png) [JPG](./JPG/Audio-IEC-Microphone.jpg) |
+| Audio | Loudspeaker / Speaker | COM | <img src='/JPG-ICO/Audio-COM-Loudspeaker.jpg?raw=true' /> | [SVG](./SVG/Audio-COM-Loudspeaker.svg) [PNG](./PNG/Audio-COM-Loudspeaker.png) [JPG](./JPG/Audio-COM-Loudspeaker.jpg) |
+| Audio | Buzzer | COM | <img src='/JPG-ICO/Audio-COM-Buzzer.jpg?raw=true' /> | [SVG](./SVG/Audio-COM-Buzzer.svg) [PNG](./PNG/Audio-COM-Buzzer.png) [JPG](./JPG/Audio-COM-Buzzer.jpg) |
+| Capacitor | Capacitor | IEEE | <img src='/JPG-ICO/Capacitor-IEEE-NonPolarized.jpg?raw=true' /> | [SVG](./SVG/Capacitor-IEEE-NonPolarized.svg) [PNG](./PNG/Capacitor-IEEE-NonPolarized.png) [JPG](./JPG/Capacitor-IEEE-NonPolarized.jpg) |
+| Capacitor | Electrolytic Capacitor | IEEE | <img src='/JPG-ICO/Capacitor-IEEE-Polarized.jpg?raw=true' /> | [SVG](./SVG/Capacitor-IEEE-Polarized.svg) [PNG](./PNG/Capacitor-IEEE-Polarized.png) [JPG](./JPG/Capacitor-IEEE-Polarized.jpg) |
+| Capacitor | Capacitor | IEC | <img src='/JPG-ICO/Capacitor-IEC-NonPolarized.jpg?raw=true' /> | [SVG](./SVG/Capacitor-IEC-NonPolarized.svg) [PNG](./PNG/Capacitor-IEC-NonPolarized.png) [JPG](./JPG/Capacitor-IEC-NonPolarized.jpg) |
+| Capacitor | Variable Capacitor | IEC | <img src='/JPG-ICO/Capacitor-IEC-Variable.jpg?raw=true' /> | [SVG](./SVG/Capacitor-IEC-Variable.svg) [PNG](./PNG/Capacitor-IEC-Variable.png) [JPG](./JPG/Capacitor-IEC-Variable.jpg) |
+| Capacitor | Trimmer Capacitor | IEC | <img src='/JPG-ICO/Capacitor-IEC-Trimmer.jpg?raw=true' /> | [SVG](./SVG/Capacitor-IEC-Trimmer.svg) [PNG](./PNG/Capacitor-IEC-Trimmer.png) [JPG](./JPG/Capacitor-IEC-Trimmer.jpg) |
+| Capacitor | Polarized Capacitor | IEC | <img src='/JPG-ICO/Capacitor-IEC-Polarized.jpg?raw=true' /> | [SVG](./SVG/Capacitor-IEC-Polarized.svg) [PNG](./PNG/Capacitor-IEC-Polarized.png) [JPG](./JPG/Capacitor-IEC-Polarized.jpg) |
+| Capacitor | Feedthrough Capacitor | COM | <img src='/JPG-ICO/Capacitor-COM-Feedthrough.jpg?raw=true' /> | [SVG](./SVG/Capacitor-COM-Feedthrough.svg) [PNG](./PNG/Capacitor-COM-Feedthrough.png) [JPG](./JPG/Capacitor-COM-Feedthrough.jpg) |
+| Diode | Zener Diode | COM | <img src='/JPG-ICO/Diode-COM-Zener.jpg?raw=true' /> | [SVG](./SVG/Diode-COM-Zener.svg) [PNG](./PNG/Diode-COM-Zener.png) [JPG](./JPG/Diode-COM-Zener.jpg) |
+| Diode | Varicap Diode | COM | <img src='/JPG-ICO/Diode-COM-Varicap.jpg?raw=true' /> | [SVG](./SVG/Diode-COM-Varicap.svg) [PNG](./PNG/Diode-COM-Varicap.png) [JPG](./JPG/Diode-COM-Varicap.jpg) |
+| Diode | Tunnel Diode | COM | <img src='/JPG-ICO/Diode-COM-Tunnel.jpg?raw=true' /> | [SVG](./SVG/Diode-COM-Tunnel.svg) [PNG](./PNG/Diode-COM-Tunnel.png) [JPG](./JPG/Diode-COM-Tunnel.jpg) |
+| Diode | Shottky Diode | COM | <img src='/JPG-ICO/Diode-COM-Shottky.jpg?raw=true' /> | [SVG](./SVG/Diode-COM-Shottky.svg) [PNG](./PNG/Diode-COM-Shottky.png) [JPG](./JPG/Diode-COM-Shottky.jpg) |
+| Diode | Shockley Diode | COM | <img src='/JPG-ICO/Diode-COM-Shockley.jpg?raw=true' /> | [SVG](./SVG/Diode-COM-Shockley.svg) [PNG](./PNG/Diode-COM-Shockley.png) [JPG](./JPG/Diode-COM-Shockley.jpg) |
+| Diode | Photodiode | COM | <img src='/JPG-ICO/Diode-COM-Photodiode.jpg?raw=true' /> | [SVG](./SVG/Diode-COM-Photodiode.svg) [PNG](./PNG/Diode-COM-Photodiode.png) [JPG](./JPG/Diode-COM-Photodiode.jpg) |
+| Diode | LED | COM | <img src='/JPG-ICO/Diode-COM-LED.jpg?raw=true' /> | [SVG](./SVG/Diode-COM-LED.svg) [PNG](./PNG/Diode-COM-LED.png) [JPG](./JPG/Diode-COM-LED.jpg) |        
+| Diode | LASER Diode | COM | <img src='/JPG-ICO/Diode-COM-Laser.jpg?raw=true' /> | [SVG](./SVG/Diode-COM-Laser.svg) [PNG](./PNG/Diode-COM-Laser.png) [JPG](./JPG/Diode-COM-Laser.jpg) |
+| Diode | Standard Diode | COM | <img src='/JPG-ICO/Diode-COM-Standard.jpg?raw=true' /> | [SVG](./SVG/Diode-COM-Standard.svg) [PNG](./PNG/Diode-COM-Standard.png) [JPG](./JPG/Diode-COM-Standard.jpg) |
+| Fuse | Fuse | IEEE | <img src='/JPG-ICO/Fuse-IEEE.jpg?raw=true' /> | [SVG](./SVG/Fuse-IEEE.svg) [PNG](./PNG/Fuse-IEEE.png) [JPG](./JPG/Fuse-IEEE.jpg) |
+| Fuse | Fuse | IEC | <img src='/JPG-ICO/Fuse-IEC.jpg?raw=true' /> | [SVG](./SVG/Fuse-IEC.svg) [PNG](./PNG/Fuse-IEC.png) [JPG](./JPG/Fuse-IEC.jpg) |
+| Fuse | Fuse | IEEE | <img src='/JPG-ICO/Fuse-IEEE.jpg?raw=true' /> | [SVG](./SVG/Fuse-IEEE.svg) [PNG](./PNG/Fuse-IEEE.png) [JPG](./JPG/Fuse-IEEE.jpg) |
+| Ground | Digital/Signal Ground | COM | <img src='/JPG-ICO/Ground-COM-Signal.jpg?raw=true' /> | [SVG](./SVG/Ground-COM-Signal.svg) [PNG](./PNG/Ground-COM-Signal.png) [JPG](./JPG/Ground-COM-Signal.jpg) |
+| Ground | Common/Earth Ground | COM | <img src='/JPG-ICO/Ground-COM-General.jpg?raw=true' /> | [SVG](./SVG/Ground-COM-General.svg) [PNG](./PNG/Ground-COM-General.png) [JPG](./JPG/Ground-COM-General.jpg) |
+| Ground | Chassis Ground | COM | <img src='/JPG-ICO/Ground-COM-Chassis.jpg?raw=true' /> | [SVG](./SVG/Ground-COM-Chassis.svg) [PNG](./PNG/Ground-COM-Chassis.png) [JPG](./JPG/Ground-COM-Chassis.jpg) |
+| Ic | Schmitt Trigger | COM | <img src='/JPG-ICO/IC-COM-Schmitt.jpg?raw=true' /> | [SVG](./SVG/IC-COM-Schmitt.svg) [PNG](./PNG/IC-COM-Schmitt.png) [JPG](./JPG/IC-COM-Schmitt.jpg) |
+| Ic | Inverted Schmitt Trigger | COM | <img src='/JPG-ICO/IC-COM-Schmitt-Inverted.jpg?raw=true' /> | [SVG](./SVG/IC-COM-Schmitt-Inverted.svg) [PNG](./PNG/IC-COM-Schmitt-Inverted.png) [JPG](./JPG/IC-COM-Schmitt-Inverted.jpg) |
+| Ic | Operational Amplifier (OpAmp) | COM | <img src='/JPG-ICO/IC-COM-OpAmp.jpg?raw=true' /> | [SVG](./SVG/IC-COM-OpAmp.svg) [PNG](./PNG/IC-COM-OpAmp.png) [JPG](./JPG/IC-COM-OpAmp.jpg) |
+| Ic | Logic XOR | COM | <img src='/JPG-ICO/IC-COM-Logic-XOR.jpg?raw=true' /> | [SVG](./SVG/IC-COM-Logic-XOR.svg) [PNG](./PNG/IC-COM-Logic-XOR.png) [JPG](./JPG/IC-COM-Logic-XOR.jpg) |
+| Ic | Logic XNOR | COM | <img src='/JPG-ICO/IC-COM-Logic-XNOR.jpg?raw=true' /> | [SVG](./SVG/IC-COM-Logic-XNOR.svg) [PNG](./PNG/IC-COM-Logic-XNOR.png) [JPG](./JPG/IC-COM-Logic-XNOR.jpg) |
+| Ic | Logic OR | COM | <img src='/JPG-ICO/IC-COM-Logic-OR.jpg?raw=true' /> | [SVG](./SVG/IC-COM-Logic-OR.svg) [PNG](./PNG/IC-COM-Logic-OR.png) [JPG](./JPG/IC-COM-Logic-OR.jpg) |
+| Ic | Logic NOR | COM | <img src='/JPG-ICO/IC-COM-Logic-NOR.jpg?raw=true' /> | [SVG](./SVG/IC-COM-Logic-NOR.svg) [PNG](./PNG/IC-COM-Logic-NOR.png) [JPG](./JPG/IC-COM-Logic-NOR.jpg) |
+| Ic | Logic NAND | COM | <img src='/JPG-ICO/IC-COM-Logic-NAND.jpg?raw=true' /> | [SVG](./SVG/IC-COM-Logic-NAND.svg) [PNG](./PNG/IC-COM-Logic-NAND.png) [JPG](./JPG/IC-COM-Logic-NAND.jpg) |
+| Ic | Inverter (Inverted Buffer) | COM | <img src='/JPG-ICO/IC-COM-Logic-Inverter.jpg?raw=true' /> | [SVG](./SVG/IC-COM-Logic-Inverter.svg) [PNG](./PNG/IC-COM-Logic-Inverter.png) [JPG](./JPG/IC-COM-Logic-Inverter.jpg) |
+| Ic | Buffer | COM | <img src='/JPG-ICO/IC-COM-Logic-Buffer.jpg?raw=true' /> | [SVG](./SVG/IC-COM-Logic-Buffer.svg) [PNG](./PNG/IC-COM-Logic-Buffer.png) [JPG](./JPG/IC-COM-Logic-Buffer.jpg) |
+| Ic | Logic AND | COM | <img src='/JPG-ICO/IC-COM-Logic-AND.jpg?raw=true' /> | [SVG](./SVG/IC-COM-Logic-AND.svg) [PNG](./PNG/IC-COM-Logic-AND.png) [JPG](./JPG/IC-COM-Logic-AND.jpg) |
+| Ic | Simple-SR Flip-Flop | COM | <img src='/JPG-ICO/IC-COM-FlipFlop-SimpleSR.jpg?raw=true' /> | [SVG](./SVG/IC-COM-FlipFlop-SimpleSR.svg) [PNG](./PNG/IC-COM-FlipFlop-SimpleSR.png) [JPG](./JPG/IC-COM-FlipFlop-SimpleSR.jpg) |
+| Ic | Gated-SR Flip-Flop | COM | <img src='/JPG-ICO/IC-COM-FlipFlop-GatedSR.jpg?raw=true' /> | [SVG](./SVG/IC-COM-FlipFlop-GatedSR.svg) [PNG](./PNG/IC-COM-FlipFlop-GatedSR.png) [JPG](./JPG/IC-COM-FlipFlop-GatedSR.jpg) |
+| Ic | Gated-D Flip-Flop | COM | <img src='/JPG-ICO/IC-COM-FlipFlop-GatedD.jpg?raw=true' /> | [SVG](./SVG/IC-COM-FlipFlop-GatedD.svg) [PNG](./PNG/IC-COM-FlipFlop-GatedD.png) [JPG](./JPG/IC-COM-FlipFlop-GatedD.jpg) |
+| Ic | Clocked-T Flip-Flop | COM | <img src='/JPG-ICO/IC-COM-FlipFlop-ClockedT.jpg?raw=true' /> | [SVG](./SVG/IC-COM-FlipFlop-ClockedT.svg) [PNG](./PNG/IC-COM-FlipFlop-ClockedT.png) [JPG](./JPG/IC-COM-FlipFlop-ClockedT.jpg) |
+| Ic | Clocked-JK Flip-Flop | COM | <img src='/JPG-ICO/IC-COM-FlipFlop-ClockedJK.jpg?raw=true' /> | [SVG](./SVG/IC-COM-FlipFlop-ClockedJK.svg) [PNG](./PNG/IC-COM-FlipFlop-ClockedJK.png) [JPG](./JPG/IC-COM-FlipFlop-ClockedJK.jpg) |
+| Ic | Clocked-D Flip-Flop | COM | <img src='/JPG-ICO/IC-COM-FlipFlop-ClockedD.jpg?raw=true' /> | [SVG](./SVG/IC-COM-FlipFlop-ClockedD.svg) [PNG](./PNG/IC-COM-FlipFlop-ClockedD.png) [JPG](./JPG/IC-COM-FlipFlop-ClockedD.jpg) |
+| Ic | Comparator | COM | <img src='/JPG-ICO/IC-COM-Comparator.jpg?raw=true' /> | [SVG](./SVG/IC-COM-Comparator.svg) [PNG](./PNG/IC-COM-Comparator.png) [JPG](./JPG/IC-COM-Comparator.jpg) |
+| Inductor | Variable Inductor | COM | <img src='/JPG-ICO/Inductor-COM-Variable.jpg?raw=true' /> | [SVG](./SVG/Inductor-COM-Variable.svg) [PNG](./PNG/Inductor-COM-Variable.png) [JPG](./JPG/Inductor-COM-Variable.jpg) |
+| Inductor | Tapped Inductor | COM | <img src='/JPG-ICO/Inductor-COM-Tapped.jpg?raw=true' /> | [SVG](./SVG/Inductor-COM-Tapped.svg) [PNG](./PNG/Inductor-COM-Tapped.png) [JPG](./JPG/Inductor-COM-Tapped.jpg) |
+| Inductor | Inductor (Magnetic/Ferrite Core) | COM | <img src='/JPG-ICO/Inductor-COM-Magnetic.jpg?raw=true' /> | [SVG](./SVG/Inductor-COM-Magnetic.svg) [PNG](./PNG/Inductor-COM-Magnetic.png) [JPG](./JPG/Inductor-COM-Magnetic.jpg) |
+| Inductor | Ferrite Bead | COM | <img src='/JPG-ICO/Inductor-COM-Ferrite-Bead.jpg?raw=true' /> | [SVG](./SVG/Inductor-COM-Ferrite-Bead.svg) [PNG](./PNG/Inductor-COM-Ferrite-Bead.png) [JPG](./JPG/Inductor-COM-Ferrite-Bead.jpg) |
+| Inductor | Inductor (Air-Core) | COM | <img src='/JPG-ICO/Inductor-COM-Air.jpg?raw=true' /> | [SVG](./SVG/Inductor-COM-Air.svg) [PNG](./PNG/Inductor-COM-Air.png) [JPG](./JPG/Inductor-COM-Air.jpg) |
+| Miscellaneous | Probe Point | COM | <img src='/JPG-ICO/Miscellaneous-COM-Probe_Point.jpg?raw=true' /> | [SVG](./SVG/Miscellaneous-COM-Probe_Point.svg) [PNG](./PNG/Miscellaneous-COM-Probe_Point.png) [JPG](./JPG/Miscellaneous-COM-Probe_Point.jpg) |
+| Miscellaneous | Optocoupler | COM | <img src='/JPG-ICO/Miscellaneous-COM-Optocoupler.jpg?raw=true' /> | [SVG](./SVG/Miscellaneous-COM-Optocoupler.svg) [PNG](./PNG/Miscellaneous-COM-Optocoupler.png) [JPG](./JPG/Miscellaneous-COM-Optocoupler.jpg) |
+| Miscellaneous | Indicator Lamp | COM | <img src='/JPG-ICO/Miscellaneous-COM-Lamp-Indicator.jpg?raw=true' /> | [SVG](./SVG/Miscellaneous-COM-Lamp-Indicator.svg) [PNG](./PNG/Miscellaneous-COM-Lamp-Indicator.png) [JPG](./JPG/Miscellaneous-COM-Lamp-Indicator.jpg) |
+| Miscellaneous | Incadecent Lamp | COM | <img src='/JPG-ICO/Miscellaneous-COM-Lamp-Incandescent.jpg?raw=true' /> | [SVG](./SVG/Miscellaneous-COM-Lamp-Incandescent.svg) [PNG](./PNG/Miscellaneous-COM-Lamp-Incandescent.png) [JPG](./JPG/Miscellaneous-COM-Lamp-Incandescent.jpg) |
+| Miscellaneous | Digital-to-Analog (DTA) Converter | COM | <img src='/JPG-ICO/Miscellaneous-COM-DAC.jpg?raw=true' /> | [SVG](./SVG/Miscellaneous-COM-DAC.svg) [PNG](./PNG/Miscellaneous-COM-DAC.png) [JPG](./JPG/Miscellaneous-COM-DAC.jpg) |
+| Miscellaneous | Crystal Oscillator | COM | <img src='/JPG-ICO/Miscellaneous-COM-Crystal_Oscillator.jpg?raw=true' /> | [SVG](./SVG/Miscellaneous-COM-Crystal_Oscillator.svg) [PNG](./PNG/Miscellaneous-COM-Crystal_Oscillator.png) [JPG](./JPG/Miscellaneous-COM-Crystal_Oscillator.jpg) |
+| Miscellaneous | Analog-to-Digital (ATD) Converter | COM | <img src='/JPG-ICO/Miscellaneous-COM-ADC.jpg?raw=true' /> | [SVG](./SVG/Miscellaneous-COM-ADC.svg) [PNG](./PNG/Miscellaneous-COM-ADC.png) [JPG](./JPG/Miscellaneous-COM-ADC.jpg) |
+| Relay | SPST Relay Normally-Open | IEEE | <img src='/JPG-ICO/Relay-IEEE-SPST-NO.jpg?raw=true' /> | [SVG](./SVG/Relay-IEEE-SPST-NO.svg) [PNG](./PNG/Relay-IEEE-SPST-NO.png) [JPG](./JPG/Relay-IEEE-SPST-NO.jpg) |
+| Relay | SPST Relay Normally-Closed | IEEE | <img src='/JPG-ICO/Relay-IEEE-SPST-NC.jpg?raw=true' /> | [SVG](./SVG/Relay-IEEE-SPST-NC.svg) [PNG](./PNG/Relay-IEEE-SPST-NC.png) [JPG](./JPG/Relay-IEEE-SPST-NC.jpg) |
+| Relay | SPDT Relay | IEEE | <img src='/JPG-ICO/Relay-IEEE-SPDT.jpg?raw=true' /> | [SVG](./SVG/Relay-IEEE-SPDT.svg) [PNG](./PNG/Relay-IEEE-SPDT.png) [JPG](./JPG/Relay-IEEE-SPDT.jpg) |
+| Relay | SPST Relay Normally-Open | IEC | <img src='/JPG-ICO/Relay-IEC-SPST-NO.jpg?raw=true' /> | [SVG](./SVG/Relay-IEC-SPST-NO.svg) [PNG](./PNG/Relay-IEC-SPST-NO.png) [JPG](./JPG/Relay-IEC-SPST-NO.jpg) |
+| Relay | SPST Relay Normally-Closed | IEC | <img src='/JPG-ICO/Relay-IEC-SPST-NC.jpg?raw=true' /> | [SVG](./SVG/Relay-IEC-SPST-NC.svg) [PNG](./PNG/Relay-IEC-SPST-NC.png) [JPG](./JPG/Relay-IEC-SPST-NC.jpg) |
+| Relay | SPDT Relay | IEC | <img src='/JPG-ICO/Relay-IEC-SPDT.jpg?raw=true' /> | [SVG](./SVG/Relay-IEC-SPDT.svg) [PNG](./PNG/Relay-IEC-SPDT.png) [JPG](./JPG/Relay-IEC-SPDT.jpg) |
+| Relay | SPST Relay Normally-Open (Common Style) | COM | <img src='/JPG-ICO/Relay-COM-COM-SPST-NO.jpg?raw=true' /> | [SVG](./SVG/Relay-COM-COM-SPST-NO.svg) [PNG](./PNG/Relay-COM-COM-SPST-NO.png) [JPG](./JPG/Relay-COM-COM-SPST-NO.jpg) |
+| Relay | SPST Relay Normally-Closed (Common Style) | COM | <img src='/JPG-ICO/Relay-COM-COM-SPST-NC.jpg?raw=true' /> | [SVG](./SVG/Relay-COM-COM-SPST-NC.svg) [PNG](./PNG/Relay-COM-COM-SPST-NC.png) [JPG](./JPG/Relay-COM-COM-SPST-NC.jpg) |
+| Relay | SPDT Relay (Common Style) | COM | <img src='/JPG-ICO/Relay-COM-COM-SPDT.jpg?raw=true' /> | [SVG](./SVG/Relay-COM-COM-SPDT.svg) [PNG](./PNG/Relay-COM-COM-SPDT.png) [JPG](./JPG/Relay-COM-COM-SPDT.jpg) |
+| Resistor | Memristor | COM | <img src='/JPG-ICO/Resistor-COM-Memristor.jpg?raw=true' /> | [SVG](./SVG/Resistor-COM-Memristor.svg) [PNG](./PNG/Resistor-COM-Memristor.png) [JPG](./JPG/Resistor-COM-Memristor.jpg) |
+| Resistor | Resistor (IEEE/ANSI) | IEEE | <img src='/JPG-ICO/Resistor-IEEE-Standard.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEEE-Standard.svg) [PNG](./PNG/Resistor-IEEE-Standard.png) [JPG](./JPG/Resistor-IEEE-Standard.jpg) |
+| Resistor | Varistor (IEEE/ANSI) | IEEE | <img src='/JPG-ICO/Resistor-IEEE-Varistor.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEEE-Varistor.svg) [PNG](./PNG/Resistor-IEEE-Varistor.png) [JPG](./JPG/Resistor-IEEE-Varistor.jpg) |
+| Resistor | Trimmer / Trim-Pot (IEEE/ANSI) | IEEE | <img src='/JPG-ICO/Resistor-IEEE-Trimmer.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEEE-Trimmer.svg) [PNG](./PNG/Resistor-IEEE-Trimmer.png) [JPG](./JPG/Resistor-IEEE-Trimmer.jpg) |
+| Resistor | Thermistor (IEEE/ANSI) | IEEE | <img src='/JPG-ICO/Resistor-IEEE-Thermistor.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEEE-Thermistor.svg) [PNG](./PNG/Resistor-IEEE-Thermistor.png) [JPG](./JPG/Resistor-IEEE-Thermistor.jpg) |
+| Resistor | Rheostat / Variable Resistor (IEEE/ANSI) | IEEE | <img src='/JPG-ICO/Resistor-IEEE-Rheostat.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEEE-Rheostat.svg) [PNG](./PNG/Resistor-IEEE-Rheostat.png) [JPG](./JPG/Resistor-IEEE-Rheostat.jpg) |
+| Resistor | Potentiometer (IEEE/ANSI) | IEEE | <img src='/JPG-ICO/Resistor-IEEE-Potentiometer.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEEE-Potentiometer.svg) [PNG](./PNG/Resistor-IEEE-Potentiometer.png) [JPG](./JPG/Resistor-IEEE-Potentiometer.jpg) |
+| Resistor | Photoresistor (IEEE/ANSI) | IEEE | <img src='/JPG-ICO/Resistor-IEEE-Photoresistor.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEEE-Photoresistor.svg) [PNG](./PNG/Resistor-IEEE-Photoresistor.png) [JPG](./JPG/Resistor-IEEE-Photoresistor.jpg) |
+| Resistor | Resistor | IEC | <img src='/JPG-ICO/Resistor-IEC-Standard.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEC-Standard.svg) [PNG](./PNG/Resistor-IEC-Standard.png) [JPG](./JPG/Resistor-IEC-Standard.jpg) |
+| Resistor | Varistor | IEC | <img src='/JPG-ICO/Resistor-IEC-Varistor.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEC-Varistor.svg) [PNG](./PNG/Resistor-IEC-Varistor.png) [JPG](./JPG/Resistor-IEC-Varistor.jpg) |
+| Resistor | Trimmer / Trim-Pot | IEC | <img src='/JPG-ICO/Resistor-IEC-Trimmer.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEC-Trimmer.svg) [PNG](./PNG/Resistor-IEC-Trimmer.png) [JPG](./JPG/Resistor-IEC-Trimmer.jpg) |
+| Resistor | Themistor | IEC | <img src='/JPG-ICO/Resistor-IEC-Thermistor.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEC-Thermistor.svg) [PNG](./PNG/Resistor-IEC-Thermistor.png) [JPG](./JPG/Resistor-IEC-Thermistor.jpg) |
+| Resistor | Rheostat / Variable Resistor | IEC | <img src='/JPG-ICO/Resistor-IEC-Rheostat.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEC-Rheostat.svg) [PNG](./PNG/Resistor-IEC-Rheostat.png) [JPG](./JPG/Resistor-IEC-Rheostat.jpg) |
+| Resistor | Potentiometer | IEC | <img src='/JPG-ICO/Resistor-IEC-Potentiometer.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEC-Potentiometer.svg) [PNG](./PNG/Resistor-IEC-Potentiometer.png) [JPG](./JPG/Resistor-IEC-Potentiometer.jpg) |
+| Resistor | Photoresistor | IEC | <img src='/JPG-ICO/Resistor-IEC-Photoresistor.jpg?raw=true' /> | [SVG](./SVG/Resistor-IEC-Photoresistor.svg) [PNG](./PNG/Resistor-IEC-Photoresistor.png) [JPG](./JPG/Resistor-IEC-Photoresistor.jpg) |
+| Source | Triangle Wave Generator | COM | <img src='/JPG-ICO/Source-COM-Triangle.jpg?raw=true' /> | [SVG](./SVG/Source-COM-Triangle.svg) [PNG](./PNG/Source-COM-Triangle.png) [JPG](./JPG/Source-COM-Triangle.jpg) |
+| Source | Square Wave Generator | COM | <img src='/JPG-ICO/Source-COM-Square.jpg?raw=true' /> | [SVG](./SVG/Source-COM-Square.svg) [PNG](./PNG/Source-COM-Square.png) [JPG](./JPG/Source-COM-Square.jpg) |
+| Source | Photovoltaic Solar Cell | COM | <img src='/JPG-ICO/Source-COM-Photovoltaic.jpg?raw=true' /> | [SVG](./SVG/Source-COM-Photovoltaic.svg) [PNG](./PNG/Source-COM-Photovoltaic.png) [JPG](./JPG/Source-COM-Photovoltaic.jpg) |
+| Source | DC Voltage Source | COM | <img src='/JPG-ICO/Source-COM-DC.jpg?raw=true' /> | [SVG](./SVG/Source-COM-DC.svg) [PNG](./PNG/Source-COM-DC.png) [JPG](./JPG/Source-COM-DC.jpg) |
+| Source | Controlled DC Source | COM | <img src='/JPG-ICO/Source-COM-DC-Controlled.jpg?raw=true' /> | [SVG](./SVG/Source-COM-DC-Controlled.svg) [PNG](./PNG/Source-COM-DC-Controlled.png) [JPG](./JPG/Source-COM-DC-Controlled.jpg) |
+| Source | Current Source | COM | <img src='/JPG-ICO/Source-COM-Current.jpg?raw=true' /> | [SVG](./SVG/Source-COM-Current.svg) [PNG](./PNG/Source-COM-Current.png) [JPG](./JPG/Source-COM-Current.jpg) |
+| Source | Controlled Current Source | COM | <img src='/JPG-ICO/Source-COM-Current-Controlled.jpg?raw=true' /> | [SVG](./SVG/Source-COM-Current-Controlled.svg) [PNG](./PNG/Source-COM-Current-Controlled.png) [JPG](./JPG/Source-COM-Current-Controlled.jpg) |
+| Source | Battery (Single Cell) | COM | <img src='/JPG-ICO/Source-COM-Battery-Single.jpg?raw=true' /> | [SVG](./SVG/Source-COM-Battery-Single.svg) [PNG](./PNG/Source-COM-Battery-Single.png) [JPG](./JPG/Source-COM-Battery-Single.jpg) |
+| Source | Battery (Multiple Cells) | COM | <img src='/JPG-ICO/Source-COM-Battery-Multiple.jpg?raw=true' /> | [SVG](./SVG/Source-COM-Battery-Multiple.svg) [PNG](./PNG/Source-COM-Battery-Multiple.png) [JPG](./JPG/Source-COM-Battery-Multiple.jpg) |
+| Source | AC Voltage Source | COM | <img src='/JPG-ICO/Source-COM-AC.jpg?raw=true' /> | [SVG](./SVG/Source-COM-AC.svg) [PNG](./PNG/Source-COM-AC.png) [JPG](./JPG/Source-COM-AC.jpg) |
+| Switch | SPST Switch | COM | <img src='/JPG-ICO/Switch-COM-SPST.jpg?raw=true' /> | [SVG](./SVG/Switch-COM-SPST.svg) [PNG](./PNG/Switch-COM-SPST.png) [JPG](./JPG/Switch-COM-SPST.jpg) |
+| Switch | SPDT Switch | COM | <img src='/JPG-ICO/Switch-COM-SPDT.jpg?raw=true' /> | [SVG](./SVG/Switch-COM-SPDT.svg) [PNG](./PNG/Switch-COM-SPDT.png) [JPG](./JPG/Switch-COM-SPDT.jpg) |
+| Switch | DPST Switch | COM | <img src='/JPG-ICO/Switch-COM-DPST.jpg?raw=true' /> | [SVG](./SVG/Switch-COM-DPST.svg) [PNG](./PNG/Switch-COM-DPST.png) [JPG](./JPG/Switch-COM-DPST.jpg) |
+| Switch | DPDT Switch | COM | <img src='/JPG-ICO/Switch-COM-DPDT.jpg?raw=true' /> | [SVG](./SVG/Switch-COM-DPDT.svg) [PNG](./PNG/Switch-COM-DPDT.png) [JPG](./JPG/Switch-COM-DPDT.jpg) |
+| Switch | Pushbutton Two-Circuit | COM | <img src='/JPG-ICO/Switch-COM-Pushbutton-Two_Circuit.jpg?raw=true' /> | [SVG](./SVG/Switch-COM-Pushbutton-Two_Circuit.svg) [PNG](./PNG/Switch-COM-Pushbutton-Two_Circuit.png) [JPG](./JPG/Switch-COM-Pushbutton-Two_Circuit.jpg) |
+| Switch | Pushbutton Normally-Open | COM | <img src='/JPG-ICO/Switch-COM-Pushbutton-NO.jpg?raw=true' /> | [SVG](./SVG/Switch-COM-Pushbutton-NO.svg) [PNG](./PNG/Switch-COM-Pushbutton-NO.png) [JPG](./JPG/Switch-COM-Pushbutton-NO.jpg) |
+| Switch | Pushbutton Normally-Closed | COM | <img src='/JPG-ICO/Switch-COM-Pushbutton-NC.jpg?raw=true' /> | [SVG](./SVG/Switch-COM-Pushbutton-NC.svg) [PNG](./PNG/Switch-COM-Pushbutton-NC.png) [JPG](./JPG/Switch-COM-Pushbutton-NC.jpg) |
+| Transformer | Center-Tapped Transformer | COM | <img src='/JPG-ICO/Transformer-COM-Center.jpg?raw=true' /> | [SVG](./SVG/Transformer-COM-Center.svg) [PNG](./PNG/Transformer-COM-Center.png) [JPG](./JPG/Transformer-COM-Center.jpg) |
+| Transformer | Double-Center-Tapped Transformer | COM | <img src='/JPG-ICO/Transformer-COM-Center-Double.jpg?raw=true' /> | [SVG](./SVG/Transformer-COM-Center-Double.svg) [PNG](./PNG/Transformer-COM-Center-Double.png) [JPG](./JPG/Transformer-COM-Center-Double.jpg) |
+| Transformer | Transformer | COM | <img src='/JPG-ICO/Transformer-COM-Standard.jpg?raw=true' /> | [SVG](./SVG/Transformer-COM-Standard.svg) [PNG](./PNG/Transformer-COM-Standard.png) [JPG](./JPG/Transformer-COM-Standard.jpg) |
+| Transistor | Phototransistor | COM | <img src='/JPG-ICO/Transistor-COM-Phototransitor.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-Phototransitor.svg) [PNG](./PNG/Transistor-COM-Phototransitor.png) [JPG](./JPG/Transistor-COM-Phototransitor.jpg) |
+| Transistor | P-Channel MOSFET | COM | <img src='/JPG-ICO/Transistor-COM-MOSFET-P.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-MOSFET-P.svg) [PNG](./PNG/Transistor-COM-MOSFET-P.png) [JPG](./JPG/Transistor-COM-MOSFET-P.jpg) |
+| Transistor | P-Channel MOSFET in Enhancement Mode | COM | <img src='/JPG-ICO/Transistor-COM-MOSFET-P-Enhancement.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-MOSFET-P-Enhancement.svg) [PNG](./PNG/Transistor-COM-MOSFET-P-Enhancement.png) [JPG](./JPG/Transistor-COM-MOSFET-P-Enhancement.jpg) |
+| Transistor | P-Channel MOSFET in Depletion Mode | COM | <img src='/JPG-ICO/Transistor-COM-MOSFET-P-Depletion.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-MOSFET-P-Depletion.svg) [PNG](./PNG/Transistor-COM-MOSFET-P-Depletion.png) [JPG](./JPG/Transistor-COM-MOSFET-P-Depletion.jpg) |
+| Transistor | N-Channel MOSFET | COM | <img src='/JPG-ICO/Transistor-COM-MOSFET-N.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-MOSFET-N.svg) [PNG](./PNG/Transistor-COM-MOSFET-N.png) [JPG](./JPG/Transistor-COM-MOSFET-N.jpg) |
+| Transistor | N-Channel MOSFET in Enhancement Mode | COM | <img src='/JPG-ICO/Transistor-COM-MOSFET-N-Enhancement.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-MOSFET-N-Enhancement.svg) [PNG](./PNG/Transistor-COM-MOSFET-N-Enhancement.png) [JPG](./JPG/Transistor-COM-MOSFET-N-Enhancement.jpg) |
+| Transistor | N-Channel MOSFET in Depletion Mode | COM | <img src='/JPG-ICO/Transistor-COM-MOSFET-N-Depletion.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-MOSFET-N-Depletion.svg) [PNG](./PNG/Transistor-COM-MOSFET-N-Depletion.png) [JPG](./JPG/Transistor-COM-MOSFET-N-Depletion.jpg) |
+| Transistor | JFET-P | COM | <img src='/JPG-ICO/Transistor-COM-JFET-P.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-JFET-P.svg) [PNG](./PNG/Transistor-COM-JFET-P.png) [JPG](./JPG/Transistor-COM-JFET-P.jpg) |
+| Transistor | JFET-N | COM | <img src='/JPG-ICO/Transistor-COM-JFET-N.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-JFET-N.svg) [PNG](./PNG/Transistor-COM-JFET-N.png) [JPG](./JPG/Transistor-COM-JFET-N.jpg) |
+| Transistor | PNP Darlington Pair | COM | <img src='/JPG-ICO/Transistor-COM-Darlington-PNP.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-Darlington-PNP.svg) [PNG](./PNG/Transistor-COM-Darlington-PNP.png) [JPG](./JPG/Transistor-COM-Darlington-PNP.jpg) |
+| Transistor | NPN Darlington Pair | COM | <img src='/JPG-ICO/Transistor-COM-Darlington-NPN.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-Darlington-NPN.svg) [PNG](./PNG/Transistor-COM-Darlington-NPN.png) [JPG](./JPG/Transistor-COM-Darlington-NPN.jpg) |
+| Transistor | PNP Transistor | COM | <img src='/JPG-ICO/Transistor-COM-BJT-PNP.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-BJT-PNP.svg) [PNG](./PNG/Transistor-COM-BJT-PNP.png) [JPG](./JPG/Transistor-COM-BJT-PNP.jpg) |
+| Transistor | NPN Transistor | COM | <img src='/JPG-ICO/Transistor-COM-BJT-NPN.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-BJT-NPN.svg) [PNG](./PNG/Transistor-COM-BJT-NPN.png) [JPG](./JPG/Transistor-COM-BJT-NPN.jpg) |
