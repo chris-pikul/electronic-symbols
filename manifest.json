@@ -756,11 +756,11 @@
     "filename": "Fuse-IEC"
   },
   {
-    "id": "fuse-ieee",
+    "id": "fuse-ieee-alt",
     "name": "Fuse",
     "category": "FUSE",
     "standard": "IEEE",
-    "filename": "Fuse-IEEE"
+    "filename": "Fuse-IEEE-Alt"
   },
   {
     "id": "miscellaneous-com-lamp-incandescent",

@@ -38,7 +38,7 @@ They where designed on a grid based on 25px, with 4 subdivisions.
 | Diode | Standard Diode | COM | <img src='/JPG-ICO/Diode-COM-Standard.jpg?raw=true' /> | [SVG](./SVG/Diode-COM-Standard.svg) [PNG](./PNG/Diode-COM-Standard.png) [JPG](./JPG/Diode-COM-Standard.jpg) |
 | Fuse | Fuse | IEEE | <img src='/JPG-ICO/Fuse-IEEE.jpg?raw=true' /> | [SVG](./SVG/Fuse-IEEE.svg) [PNG](./PNG/Fuse-IEEE.png) [JPG](./JPG/Fuse-IEEE.jpg) |
 | Fuse | Fuse | IEC | <img src='/JPG-ICO/Fuse-IEC.jpg?raw=true' /> | [SVG](./SVG/Fuse-IEC.svg) [PNG](./PNG/Fuse-IEC.png) [JPG](./JPG/Fuse-IEC.jpg) |
-| Fuse | Fuse | IEEE | <img src='/JPG-ICO/Fuse-IEEE.jpg?raw=true' /> | [SVG](./SVG/Fuse-IEEE.svg) [PNG](./PNG/Fuse-IEEE.png) [JPG](./JPG/Fuse-IEEE.jpg) |
+| Fuse | Fuse (Alternate) | IEEE | <img src='/JPG-ICO/Fuse-IEEE-alt.jpg?raw=true' /> | [SVG](./SVG/Fuse-IEEE-Alt.svg) [PNG](./PNG/Fuse-IEEE-Alt.png) [JPG](./JPG/Fuse-IEEE-Alt.jpg) |
 | Ground | Digital/Signal Ground | COM | <img src='/JPG-ICO/Ground-COM-Signal.jpg?raw=true' /> | [SVG](./SVG/Ground-COM-Signal.svg) [PNG](./PNG/Ground-COM-Signal.png) [JPG](./JPG/Ground-COM-Signal.jpg) |
 | Ground | Common/Earth Ground | COM | <img src='/JPG-ICO/Ground-COM-General.jpg?raw=true' /> | [SVG](./SVG/Ground-COM-General.svg) [PNG](./PNG/Ground-COM-General.png) [JPG](./JPG/Ground-COM-General.jpg) |
 | Ground | Chassis Ground | COM | <img src='/JPG-ICO/Ground-COM-Chassis.jpg?raw=true' /> | [SVG](./SVG/Ground-COM-Chassis.svg) [PNG](./PNG/Ground-COM-Chassis.png) [JPG](./JPG/Ground-COM-Chassis.jpg) |
