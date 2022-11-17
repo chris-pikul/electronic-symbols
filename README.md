@@ -2,12 +2,18 @@
 
 Open-Source electronic schematic diagram symbols in SVG, JPG, and PNG formats.
 
-Each symbol is named in it's file and it's dimensions are 150x150. SVG versions have
-been optimized with SVGO already. PNG versions are black on transparent. JPG has been
-compressed to 80% quality. And additionally there's a folder `JPG-ICO` that has 32px
-sized jpeg versions at 50% quality for icon sampling.
+## About
 
-They where designed on a grid based on 25px, with 4 subdivisions.
+Each component was drawn as vector shapes, on individual 150x150 tiles. Each path is (mostly) aligned with a 25px grid with 4 sub-divisions. This should make the
+outbound leads easier to connect in-between components.
+
+The available formats are:
+
+ - [SVG](./SVG/) - Has been optimized with SVGO for smaller filesizes.
+ - [PNG](./PNG/) - Transparent background with black outlines on top.
+ - [JPG](./JPG/) - Black on white, compressed to 80% quality.
+
+Additionally there is a [JPG-ICO](./JPG-ICO/) folder which holds 32x32 50% quality jpg versions for this table.
 
 ## Included Components
 
@@ -129,3 +135,26 @@ They where designed on a grid based on 25px, with 4 subdivisions.
 | Transistor | NPN Darlington Pair | COM | <img src='/JPG-ICO/Transistor-COM-Darlington-NPN.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-Darlington-NPN.svg) [PNG](./PNG/Transistor-COM-Darlington-NPN.png) [JPG](./JPG/Transistor-COM-Darlington-NPN.jpg) |
 | Transistor | PNP Transistor | COM | <img src='/JPG-ICO/Transistor-COM-BJT-PNP.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-BJT-PNP.svg) [PNG](./PNG/Transistor-COM-BJT-PNP.png) [JPG](./JPG/Transistor-COM-BJT-PNP.jpg) |
 | Transistor | NPN Transistor | COM | <img src='/JPG-ICO/Transistor-COM-BJT-NPN.jpg?raw=true' /> | [SVG](./SVG/Transistor-COM-BJT-NPN.svg) [PNG](./PNG/Transistor-COM-BJT-NPN.png) [JPG](./JPG/Transistor-COM-BJT-NPN.jpg) |
+
+## Manifest
+
+There is a [manifest.json](./manifest.json) file available that lists all the components available with unique id's, categories, filename, standards, etc..
+It is presented as a JSON array. The following typescript type can be used to describe the listings
+
+```TypeScript
+enum ComponentStandard {
+  Common = "COMMON",
+  IEEE = "IEEE",
+  IEC = "IEC",
+};
+
+interface Component {
+  id: string;
+  name: string;
+  category: string;
+  subCategory?: string;
+  standard: ComponentStandard;
+  filename: string;
+};
+type ComponentManifest = Array<Component>;
+```
