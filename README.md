@@ -64,13 +64,13 @@ They where designed on a grid based on 25px, with 4 subdivisions.
 | SPDT Relay (US) | Relay | `Relay-US-SPDT` | <img src='/JPG-ICO/Relay-US-SPDT.jpg?raw=true' /> |
 | SPST Relay Normally-Closed (US) | Relay | `Relay-US-SPST-NC` | <img src='/JPG-ICO/Relay-US-SPST-NC.jpg?raw=true' /> |
 | SPST Relay Normally-Open (US) | Relay | `Relay-US-SPST-NO` | <img src='/JPG-ICO/Relay-US-SPST-NO.jpg?raw=true' /> |
-| Photoresistor (IEC) | Resistor | `Resistor-AEC-Photoresistor` | <img src='/JPG-ICO/Resistor-AEC-Photoresistor.jpg?raw=true' /> |
-| Potentiometer (IEC) | Resistor | `Resistor-AEC-Potentiometer` | <img src='/JPG-ICO/Resistor-AEC-Potentiometer.jpg?raw=true' /> |
-| Rheostat / Variable Resistor (IEC) | Resistor | `Resistor-AEC-Rheostat` | <img src='/JPG-ICO/Resistor-AEC-Rheostat.jpg?raw=true' /> |
-| Themistor (IEC) | Resistor | `Resistor-AEC-Thermistor` | <img src='/JPG-ICO/Resistor-AEC-Thermistor.jpg?raw=true' /> |
-| Trimmer / Trim-Pot (IEC) | Resistor | `Resistor-AEC-Trimmer` | <img src='/JPG-ICO/Resistor-AEC-Trimmer.jpg?raw=true' /> |
-| Varistor (IEC) | Resistor | `Resistor-AEC-Varistor` | <img src='/JPG-ICO/Resistor-AEC-Varistor.jpg?raw=true' /> |
-| Resistor (IEC) | Resistor | `Resistor-AEC` | <img src='/JPG-ICO/Resistor-AEC.jpg?raw=true' /> |
+| Photoresistor (IEC) | Resistor | `Resistor-IEC-Photoresistor` | <img src='/JPG-ICO/Resistor-IEC-Photoresistor.jpg?raw=true' /> |
+| Potentiometer (IEC) | Resistor | `Resistor-IEC-Potentiometer` | <img src='/JPG-ICO/Resistor-IEC-Potentiometer.jpg?raw=true' /> |
+| Rheostat / Variable Resistor (IEC) | Resistor | `Resistor-IEC-Rheostat` | <img src='/JPG-ICO/Resistor-IEC-Rheostat.jpg?raw=true' /> |
+| Themistor (IEC) | Resistor | `Resistor-IEC-Thermistor` | <img src='/JPG-ICO/Resistor-IEC-Thermistor.jpg?raw=true' /> |
+| Trimmer / Trim-Pot (IEC) | Resistor | `Resistor-IEC-Trimmer` | <img src='/JPG-ICO/Resistor-IEC-Trimmer.jpg?raw=true' /> |
+| Varistor (IEC) | Resistor | `Resistor-IEC-Varistor` | <img src='/JPG-ICO/Resistor-IEC-Varistor.jpg?raw=true' /> |
+| Resistor (IEC) | Resistor | `Resistor-IEC` | <img src='/JPG-ICO/Resistor-IEC.jpg?raw=true' /> |
 | Photoresistor (IEEE/ANSI) | Resistor | Resistor-ANSI copy.jpg | <img src='/JPG-ICO/Resistor-ANSI copy.jpg?raw=true' /> |
 | Potentiometer (IEEE/ANSI) | Resistor | `Resistor-ANSI-Potentiometer` | <img src='/JPG-ICO/Resistor-ANSI-Potentiometer.jpg?raw=true' /> |
 | Rheostat / Variable Resistor (IEEE/ANSI) | Resistor | `Resistor-ANSI-Rheostat` | <img src='/JPG-ICO/Resistor-ANSI-Rheostat.jpg?raw=true' /> |
