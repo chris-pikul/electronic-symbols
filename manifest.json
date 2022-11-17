@@ -143,6 +143,7 @@
     "id": "ic-com-flipflop-clockedd",
     "name": "Clocked-D Flip-Flop",
     "category": "IC",
+    "subCategory": "FLIP-FLOP",
     "standard": "COMMON",
     "filename": "IC-COM-FlipFlop-ClockedD"
   },
@@ -150,6 +151,7 @@
     "id": "ic-com-flipflop-clockedjk",
     "name": "Clocked-JK Flip-Flop",
     "category": "IC",
+    "subCategory": "FLIP-FLOP",
     "standard": "COMMON",
     "filename": "IC-COM-FlipFlop-ClockedJK"
   },
@@ -157,6 +159,7 @@
     "id": "ic-com-flipflop-clockedt",
     "name": "Clocked-T Flip-Flop",
     "category": "IC",
+    "subCategory": "FLIP-FLOP",
     "standard": "COMMON",
     "filename": "IC-COM-FlipFlop-ClockedT"
   },
@@ -164,6 +167,7 @@
     "id": "ic-com-flipflop-gatedd",
     "name": "Gated-D Flip-Flop",
     "category": "IC",
+    "subCategory": "FLIP-FLOP",
     "standard": "COMMON",
     "filename": "IC-COM-FlipFlop-GatedD"
   },
@@ -171,6 +175,7 @@
     "id": "ic-com-flipflop-gatedsr",
     "name": "Gated-SR Flip-Flop",
     "category": "IC",
+    "subCategory": "FLIP-FLOP",
     "standard": "COMMON",
     "filename": "IC-COM-FlipFlop-GatedSR"
   },
@@ -178,6 +183,7 @@
     "id": "ic-com-flipflop-simplesr",
     "name": "Simple-SR Flip-Flop",
     "category": "IC",
+    "subCategory": "FLIP-FLOP",
     "standard": "COMMON",
     "filename": "IC-COM-FlipFlop-SimpleSR"
   },
@@ -185,6 +191,7 @@
     "id": "ic-com-logic-and",
     "name": "Logic AND",
     "category": "IC",
+    "subCategory": "LOGIC",
     "standard": "COMMON",
     "filename": "IC-COM-Logic-AND"
   },
@@ -192,6 +199,7 @@
     "id": "ic-com-logic-buffer",
     "name": "Buffer",
     "category": "IC",
+    "subCategory": "LOGIC",
     "standard": "COMMON",
     "filename": "IC-COM-Logic-Buffer"
   },
@@ -199,6 +207,7 @@
     "id": "ic-com-logic-inverter",
     "name": "Inverter (Inverted Buffer)",
     "category": "IC",
+    "subCategory": "LOGIC",
     "standard": "COMMON",
     "filename": "IC-COM-Logic-Inverter"
   },
@@ -206,6 +215,7 @@
     "id": "ic-com-logic-nand",
     "name": "Logic NAND",
     "category": "IC",
+    "subCategory": "LOGIC",
     "standard": "COMMON",
     "filename": "IC-COM-Logic-NAND"
   },
@@ -213,6 +223,7 @@
     "id": "ic-com-logic-nor",
     "name": "Logic NOR",
     "category": "IC",
+    "subCategory": "LOGIC",
     "standard": "COMMON",
     "filename": "IC-COM-Logic-NOR"
   },
@@ -220,6 +231,7 @@
     "id": "ic-com-logic-or",
     "name": "Logic OR",
     "category": "IC",
+    "subCategory": "LOGIC",
     "standard": "COMMON",
     "filename": "IC-COM-Logic-OR"
   },
@@ -227,6 +239,7 @@
     "id": "ic-com-logic-xnor",
     "name": "Logic XNOR",
     "category": "IC",
+    "subCategory": "LOGIC",
     "standard": "COMMON",
     "filename": "IC-COM-Logic-XNOR"
   },
@@ -234,6 +247,7 @@
     "id": "ic-com-logic-xor",
     "name": "Logic XOR",
     "category": "IC",
+    "subCategory": "LOGIC",
     "standard": "COMMON",
     "filename": "IC-COM-Logic-XOR"
   },
@@ -521,6 +535,7 @@
     "id": "source-com-square",
     "name": "Square Wave Generator",
     "category": "SOURCE",
+    "subCategory": "FUNCTION",
     "standard": "COMMON",
     "filename": "Source-COM-Square"
   },
@@ -528,6 +543,7 @@
     "id": "source-com-triangle",
     "name": "Triangle Wave Generator",
     "category": "SOURCE",
+    "subCategory": "FUNCTION",
     "standard": "COMMON",
     "filename": "Source-COM-Triangle"
   },
@@ -535,6 +551,7 @@
     "id": "switch-com-pushbutton-nc",
     "name": "Pushbutton Normally-Closed",
     "category": "SWITCH",
+    "subCategory": "MOMENTARY",
     "standard": "COMMON",
     "filename": "Switch-COM-Pushbutton-NC"
   },
@@ -542,6 +559,7 @@
     "id": "switch-com-pushbutton-no",
     "name": "Pushbutton Normally-Open",
     "category": "SWITCH",
+    "subCategory": "MOMENTARY",
     "standard": "COMMON",
     "filename": "Switch-COM-Pushbutton-NO"
   },
@@ -549,6 +567,7 @@
     "id": "switch-com-pushbutton-two_circuit",
     "name": "Pushbutton Two-Circuit",
     "category": "SWITCH",
+    "subCategory": "MOMENTARY",
     "standard": "COMMON",
     "filename": "Switch-COM-Pushbutton-Two_Circuit"
   },
@@ -647,6 +666,7 @@
     "id": "transistor-com-mosfet-n-depletion",
     "name": "N-Channel MOSFET in Depletion Mode",
     "category": "TRANSISTOR",
+    "subCategory": "MOSFET",
     "standard": "COMMON",
     "filename": "Transistor-COM-MOSFET-N-Depletion"
   },
@@ -654,6 +674,7 @@
     "id": "transistor-com-mosfet-n-enhancement",
     "name": "N-Channel MOSFET in Enhancement Mode",
     "category": "TRANSISTOR",
+    "subCategory": "MOSFET",
     "standard": "COMMON",
     "filename": "Transistor-COM-MOSFET-N-Enhancement"
   },
@@ -661,6 +682,7 @@
     "id": "transistor-com-mosfet-n",
     "name": "N-Channel MOSFET",
     "category": "TRANSISTOR",
+    "subCategory": "MOSFET",
     "standard": "COMMON",
     "filename": "Transistor-COM-MOSFET-N"
   },
@@ -668,6 +690,7 @@
     "id": "transistor-com-mosfet-p-depletion",
     "name": "P-Channel MOSFET in Depletion Mode",
     "category": "TRANSISTOR",
+    "subCategory": "MOSFET",
     "standard": "COMMON",
     "filename": "Transistor-COM-MOSFET-P-Depletion"
   },
@@ -675,6 +698,7 @@
     "id": "transistor-com-mosfet-p-enhancement",
     "name": "P-Channel MOSFET in Enhancement Mode",
     "category": "TRANSISTOR",
+    "subCategory": "MOSFET",
     "standard": "COMMON",
     "filename": "Transistor-COM-MOSFET-P-Enhancement"
   },
@@ -682,6 +706,7 @@
     "id": "transistor-com-mosfet-p",
     "name": "P-Channel MOSFET",
     "category": "TRANSISTOR",
+    "subCategory": "MOSFET",
     "standard": "COMMON",
     "filename": "Transistor-COM-MOSFET-P"
   },
