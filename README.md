@@ -12,4 +12,4 @@ They where designed on a grid based on 25px, with 4 subdivisions.
 
 | Name   | Category | Filename | Symbol |
 |--------|----------|----------|--------|
-| General/Earth Ground | Ground | `Ground-General` | <img src='/svg/Ground-General.svg' width='20px' height='20px' /> |
+| General/Earth Ground | Ground | `Ground-General` | <img src='/SVG/Ground-General.svg?raw=true' width='20px' height='20px' /> |
