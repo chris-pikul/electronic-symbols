@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const manifest = require(path.resolve(__dirname, 'manifest.json'));
+const manifest = require(path.resolve(__dirname, '..', 'manifest.json'));
 
 function checkExists(filename, ext, dir) {
   const check = path.resolve(__dirname, '..', dir ?? ext.toUpperCase(), filename + '.' + ext);
