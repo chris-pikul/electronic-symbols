@@ -1,0 +1,117 @@
+html {
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.25em;
+  font-size: 20px;
+
+  background: white;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 1em;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+}
+
+h1, h2 {
+  margin: 1em 0;
+  padding: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+h2 {
+  margin: 0 auto;
+  width: 65%;
+  font-size: 1.25rem;
+}
+
+a:link, a:visited {
+  color: blue;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 0.25fr));
+  gap: 2rem;
+
+  margin: 2rem 0;
+}
+
+.symbol {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+
+  padding: 1em;
+
+  border: 1px solid black;
+  border-radius: 0.2em;
+  background: white;
+  box-shadow: 0.1em 0.1em 0.1em rgb(0 0 0 / 0.8);
+
+  transition: box-shadow 0.15s ease-in-out, transform 0.15s ease-in-out;
+  overflow: hidden;
+}
+.symbol:hover {
+  transform: scale(1.2);
+  box-shadow: 0.5em 0.5em 0.5em rgb(0 0 0 / 0.2);
+}
+
+.symbol-category {
+  display: block;
+  position: relative;
+  top: -1rem;
+  left: -1rem;
+  margin-bottom: -1rem;
+  margin-right: -2rem;
+
+  font-size: 0.8rem;
+  text-align: center;
+}
+.cat-capacitor { background: red; color: black; }
+.cat-diode { background: orange; color: black; }
+.cat-ground { background: yellow; color: black; }
+.cat-ic { background: yellowgreen; color: black; }
+.cat-inductor { background: lime; color: black; }
+.cat-relay { background: cyan; color: black; }
+.cat-resistor { background: blue; color: black; }
+.cat-source { background: fuchsia; color: black; }
+.cat-switch { background: gray; color: black; }
+.cat-transformer { background: brown; color: black; }
+.cat-transistor, .cat-transitor { background: goldenrod; color: black; }
+.cat-miscellaneous { background: black; color: white; }
+
+.symbol img {
+  aspect-ratio: 1;
+  flex: 1;
+}
+.symbol h3 {
+  margin: 1em 0;
+  text-align: center;
+  font-size: 1rem;
+}
+.symbol-links {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.symbol-links a:not(:first-child) {
+  margin-left: 0.25rem;
+}
+
+#wrapper > footer {
+  margin-top: 3rem;
+  text-align: center;
+}
