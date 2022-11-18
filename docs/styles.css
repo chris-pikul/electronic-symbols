@@ -96,7 +96,19 @@ main {
   aspect-ratio: 1;
   flex: 1;
 }
+.symbol-standard {
+  display: block;
+  width: 100%;
+  margin: 0.25rem 0;
+  font-size: 0.8em;
+  text-align: center;
+  color: #888;
+}
+.std-ieee { color: darkred; font-weight: bold; }
+.std-iec { color: darkblue; font-weight: bold; }
+
 .symbol h3 {
+  flex: 1;
   margin: 1em 0;
   text-align: center;
   font-size: 1rem;
