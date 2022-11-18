@@ -37,6 +37,37 @@ a:link, a:visited {
   color: blue;
 }
 
+#search {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+
+  flex: 1;
+  max-width: 20rem;
+
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+#search-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+#search-input {
+  flex: 3;
+}
+#search-submit {
+  flex: 1;
+}
+#search fieldset {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+  font-size: 0.8rem;
+}
+
 main {
   display: grid;
   justify-content: center;

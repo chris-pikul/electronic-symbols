@@ -17,6 +17,30 @@
     <h1>Electronic Symbols</h1>
     <h2>Free, open-source, electronic symbol images available in SVG, PNG, and JPG formats.</h2>
   </header>
+  <form id="search" role="search" action="">
+    <div id="search-bar">
+      <input id="search-input" type="search" placeholder="Search components..." autofocus />
+      <button id="search-submit" type="button">SEARCH</button>
+    </div>
+    <fieldset>
+      <legend>Standards Filter</legend>
+
+      <span>
+        <input type="checkbox" id="filter-common" value="com" checked />
+        <label for="filter-common">Common</label>
+      </span>
+
+      <span>
+        <input type="checkbox" id="filter-ieee" value="ieee" checked />
+        <label for="filter-ieee">IEEE/ANSI</label>
+      </span>
+
+      <span>
+        <input type="checkbox" id="filter-iec" value="iec" checked />
+        <label for="filter-iec">IEC/Europe</label>
+      </span>
+    </fieldset>
+  </form>
   <main id="content">
     <div class="symbol" data-id="antenna-com-loop"><header class="symbol-category cat-antenna">ANTENNA</header><img src="https://raw.githubusercontent.com/chris-pikul/electronic-symbols/main/SVG/Antenna-COM-Loop.svg" alt="Looped Antenna" /><div class='symbol-standard std-common'>COMMON</div><h3>Looped Antenna</h3><div class="symbol-links"><a href="https://raw.githubusercontent.com/chris-pikul/electronic-symbols/main/SVG/Antenna-COM-Loop.svg">SVG</a><a href="https://raw.githubusercontent.com/chris-pikul/electronic-symbols/main/PNG/Antenna-COM-Loop.png">PNG</a><a href="https://raw.githubusercontent.com/chris-pikul/electronic-symbols/main/JPG/Antenna-COM-Loop.jpg">JPG</a></div></div>
     <div class="symbol" data-id="antenna-com-dipole"><header class="symbol-category cat-antenna">ANTENNA</header><img src="https://raw.githubusercontent.com/chris-pikul/electronic-symbols/main/SVG/Antenna-COM-Dipole.svg" alt="Dipole Antenna" /><div class='symbol-standard std-common'>COMMON</div><h3>Dipole Antenna</h3><div class="symbol-links"><a href="https://raw.githubusercontent.com/chris-pikul/electronic-symbols/main/SVG/Antenna-COM-Dipole.svg">SVG</a><a href="https://raw.githubusercontent.com/chris-pikul/electronic-symbols/main/PNG/Antenna-COM-Dipole.png">PNG</a><a href="https://raw.githubusercontent.com/chris-pikul/electronic-symbols/main/JPG/Antenna-COM-Dipole.jpg">JPG</a></div></div>
@@ -140,6 +164,8 @@
     © Copyright 2022 Chris Pikul.<br/>
     Licensed under MIT, see file <a href="https://github.com/chris-pikul/electronic-symbols/blob/main/LICENSE">LICENSE</a> for more information.
   </footer>
+
+  <script src="./search.js" type="application/javascript"></script>
 </div>
 </body>
 </html>
