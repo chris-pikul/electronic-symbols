@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
-    <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5">
-        <path d="M62.5 31.25h25v37.5h-25zm0 18.75H0m150 0H87.5M0 99.88l50 .12 62.5 12.5"/>
-        <path stroke-dasharray="5" d="M75 68.75v37.5"/>
-        <path d="M100 118.75V100h50"/>
-    </g>
-</svg>

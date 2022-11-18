@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
-    <path fill="none" stroke="#000" stroke-linejoin="bevel" stroke-width="5" d="M0 74.94h31.25l10.29-24.97L54.92 100l13.39-50 13.38 50 13.39-49.62L108.46 100l10.29-25H150"/>
-    <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5" d="M25 6.25 43.75 25"/>
-    <path d="m36.91 28.74 14.45 3.87-3.87-14.45-10.58 10.58z"/>
-    <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5" d="M6.25 25 25 43.75"/>
-    <path d="m18.16 47.49 14.45 3.87-3.87-14.45-10.58 10.58z"/>
-</svg>
