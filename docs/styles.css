@@ -79,18 +79,23 @@ main {
   font-size: 0.8rem;
   text-align: center;
 }
-.cat-capacitor { background: red; color: black; }
-.cat-diode { background: orange; color: black; }
-.cat-ground { background: yellow; color: black; }
-.cat-ic { background: yellowgreen; color: black; }
-.cat-inductor { background: lime; color: black; }
-.cat-relay { background: cyan; color: black; }
-.cat-resistor { background: blue; color: black; }
-.cat-source { background: fuchsia; color: black; }
-.cat-switch { background: gray; color: black; }
-.cat-transformer { background: brown; color: black; }
-.cat-transistor, .cat-transitor { background: goldenrod; color: black; }
-.cat-miscellaneous { background: black; color: white; }
+
+/* Generated from script make-category-colors */
+.cat-antenna { background: #FF0000; color: black; }
+.cat-audio { background: #FF8800; color: black; }
+.cat-capacitor { background: #FFFF00; color: black; }
+.cat-diode { background: #88FF00; color: black; }
+.cat-fuse { background: #00FF00; color: black; }
+.cat-ground { background: #00FF88; color: black; }
+.cat-ic { background: #00FFFF; color: black; }
+.cat-inductor { background: #0088FF; color: black; }
+.cat-miscellaneous { background: #0000FF; color: white; }
+.cat-relay { background: #8800FF; color: white; }
+.cat-resistor { background: #FF00FF; color: black; }
+.cat-source { background: #FF0088; color: black; }
+.cat-switch { background: #AA0000; color: white; }
+.cat-transformer { background: #AA2200; color: white; }
+.cat-transistor { background: #AAAA00; color: white; }
 
 .symbol img {
   aspect-ratio: 1;
