@@ -1,0 +1,839 @@
+[
+  {
+    "id": "antenna-com-loop",
+    "name": "Looped Antenna",
+    "category": "ANTENNA",
+    "standard": "COMMON",
+    "filename": "Antenna-COM-Loop"
+  },
+  {
+    "id": "antenna-com-dipole",
+    "name": "Dipole Antenna",
+    "category": "ANTENNA",
+    "standard": "COMMON",
+    "filename": "Antenna-COM-Dipole"
+  },
+  {
+    "id": "antenna-com-aerial",
+    "name": "Aerial Antenna",
+    "category": "ANTENNA",
+    "standard": "COMMON",
+    "filename": "Antenna-COM-Aerial"
+  },
+  {
+    "id": "audio-ieee-microphone",
+    "name": "Microphone",
+    "category": "AUDIO",
+    "standard": "IEEE",
+    "filename": "Audio-IEEE-Microphone"
+  },
+  {
+    "id": "audio-iec-microphone",
+    "name": "Microphone",
+    "category": "AUDIO",
+    "standard": "IEC",
+    "filename": "Audio-IEC-Microphone"
+  },
+  {
+    "id": "audio-com-loudspeaker",
+    "name": "Loudspeaker / Speaker",
+    "category": "AUDIO",
+    "standard": "COMMON",
+    "filename": "Audio-COM-Loudspeaker"
+  },
+  {
+    "id": "audio-com-buzzer",
+    "name": "Buzzer",
+    "category": "AUDIO",
+    "standard": "COMMON",
+    "filename": "Audio-COM-Buzzer"
+  },
+  {
+    "id": "capacitor-ieee-nonpolarized",
+    "name": "Capacitor",
+    "category": "CAPACITOR",
+    "standard": "IEEE",
+    "filename": "Capacitor-IEEE-NonPolarized"
+  },
+  {
+    "id": "capacitor-ieee-polarized",
+    "name": "Electrolytic Capacitor",
+    "category": "CAPACITOR",
+    "standard": "IEEE",
+    "filename": "Capacitor-IEEE-Polarized"
+  },
+  {
+    "id": "capacitor-iec-nonpolarized",
+    "name": "Capacitor",
+    "category": "CAPACITOR",
+    "standard": "IEC",
+    "filename": "Capacitor-IEC-NonPolarized"
+  },
+  {
+    "id": "capacitor-iec-variable",
+    "name": "Variable Capacitor",
+    "category": "CAPACITOR",
+    "standard": "IEC",
+    "filename": "Capacitor-IEC-Variable"
+  },
+  {
+    "id": "capacitor-iec-trimmer",
+    "name": "Trimmer Capacitor",
+    "category": "CAPACITOR",
+    "standard": "IEC",
+    "filename": "Capacitor-IEC-Trimmer"
+  },
+  {
+    "id": "capacitor-iec-polarized",
+    "name": "Polarized Capacitor",
+    "category": "CAPACITOR",
+    "standard": "IEC",
+    "filename": "Capacitor-IEC-Polarized"
+  },
+  {
+    "id": "capacitor-com-feedthrough",
+    "name": "Feedthrough Capacitor",
+    "category": "CAPACITOR",
+    "standard": "COMMON",
+    "filename": "Capacitor-COM-Feedthrough"
+  },
+  {
+    "id": "diode-com-zener",
+    "name": "Zener Diode",
+    "category": "DIODE",
+    "standard": "COMMON",
+    "filename": "Diode-COM-Zener"
+  },
+  {
+    "id": "diode-com-varicap",
+    "name": "Varicap Diode",
+    "category": "DIODE",
+    "standard": "COMMON",
+    "filename": "Diode-COM-Varicap"
+  },
+  {
+    "id": "diode-com-tunnel",
+    "name": "Tunnel Diode",
+    "category": "DIODE",
+    "standard": "COMMON",
+    "filename": "Diode-COM-Tunnel"
+  },
+  {
+    "id": "diode-com-shottky",
+    "name": "Shottky Diode",
+    "category": "DIODE",
+    "standard": "COMMON",
+    "filename": "Diode-COM-Shottky"
+  },
+  {
+    "id": "diode-com-shockley",
+    "name": "Shockley Diode",
+    "category": "DIODE",
+    "standard": "COMMON",
+    "filename": "Diode-COM-Shockley"
+  },
+  {
+    "id": "diode-com-photodiode",
+    "name": "Photodiode",
+    "category": "DIODE",
+    "standard": "COMMON",
+    "filename": "Diode-COM-Photodiode"
+  },
+  {
+    "id": "diode-com-led",
+    "name": "LED",
+    "category": "DIODE",
+    "standard": "COMMON",
+    "filename": "Diode-COM-LED"
+  },
+  {
+    "id": "diode-com-laser",
+    "name": "LASER Diode",
+    "category": "DIODE",
+    "standard": "COMMON",
+    "filename": "Diode-COM-Laser"
+  },
+  {
+    "id": "diode-com-standard",
+    "name": "Standard Diode",
+    "category": "DIODE",
+    "standard": "COMMON",
+    "filename": "Diode-COM-Standard"
+  },
+  {
+    "id": "fuse-ieee-alt",
+    "name": "Fuse",
+    "category": "FUSE",
+    "standard": "IEEE",
+    "filename": "Fuse-IEEE-Alt"
+  },
+  {
+    "id": "fuse-iec",
+    "name": "Fuse",
+    "category": "FUSE",
+    "standard": "IEC",
+    "filename": "Fuse-IEC"
+  },
+  {
+    "id": "fuse-ieee",
+    "name": "Fuse",
+    "category": "FUSE",
+    "standard": "IEEE",
+    "filename": "Fuse-IEEE"
+  },
+  {
+    "id": "ground-com-signal",
+    "name": "Digital/Signal Ground",
+    "category": "GROUND",
+    "standard": "COMMON",
+    "filename": "Ground-COM-Signal"
+  },
+  {
+    "id": "ground-com-general",
+    "name": "Common/Earth Ground",
+    "category": "GROUND",
+    "standard": "COMMON",
+    "filename": "Ground-COM-General"
+  },
+  {
+    "id": "ground-com-chassis",
+    "name": "Chassis Ground",
+    "category": "GROUND",
+    "standard": "COMMON",
+    "filename": "Ground-COM-Chassis"
+  },
+  {
+    "id": "ic-com-schmitt",
+    "name": "Schmitt Trigger",
+    "category": "IC",
+    "standard": "COMMON",
+    "filename": "IC-COM-Schmitt"
+  },
+  {
+    "id": "ic-com-schmitt-inverted",
+    "name": "Inverted Schmitt Trigger",
+    "category": "IC",
+    "standard": "COMMON",
+    "filename": "IC-COM-Schmitt-Inverted"
+  },
+  {
+    "id": "ic-com-opamp",
+    "name": "Operational Amplifier (OpAmp)",
+    "category": "IC",
+    "standard": "COMMON",
+    "filename": "IC-COM-OpAmp"
+  },
+  {
+    "id": "ic-com-comparator",
+    "name": "Comparator",
+    "category": "IC",
+    "standard": "COMMON",
+    "filename": "IC-COM-Comparator"
+  },
+  {
+    "id": "ic-com-flipflop-clockedd",
+    "name": "Clocked-D Flip-Flop",
+    "category": "IC",
+    "subCategory": "FLIP-FLOP",
+    "standard": "COMMON",
+    "filename": "IC-COM-FlipFlop-ClockedD"
+  },
+  {
+    "id": "ic-com-flipflop-clockedjk",
+    "name": "Clocked-JK Flip-Flop",
+    "category": "IC",
+    "subCategory": "FLIP-FLOP",
+    "standard": "COMMON",
+    "filename": "IC-COM-FlipFlop-ClockedJK"
+  },
+  {
+    "id": "ic-com-flipflop-clockedt",
+    "name": "Clocked-T Flip-Flop",
+    "category": "IC",
+    "subCategory": "FLIP-FLOP",
+    "standard": "COMMON",
+    "filename": "IC-COM-FlipFlop-ClockedT"
+  },
+  {
+    "id": "ic-com-flipflop-gatedd",
+    "name": "Gated-D Flip-Flop",
+    "category": "IC",
+    "subCategory": "FLIP-FLOP",
+    "standard": "COMMON",
+    "filename": "IC-COM-FlipFlop-GatedD"
+  },
+  {
+    "id": "ic-com-flipflop-gatedsr",
+    "name": "Gated-SR Flip-Flop",
+    "category": "IC",
+    "subCategory": "FLIP-FLOP",
+    "standard": "COMMON",
+    "filename": "IC-COM-FlipFlop-GatedSR"
+  },
+  {
+    "id": "ic-com-flipflop-simplesr",
+    "name": "Simple-SR Flip-Flop",
+    "category": "IC",
+    "subCategory": "FLIP-FLOP",
+    "standard": "COMMON",
+    "filename": "IC-COM-FlipFlop-SimpleSR"
+  },
+  {
+    "id": "ic-com-logic-buffer",
+    "name": "Buffer",
+    "category": "IC",
+    "subCategory": "LOGIC",
+    "standard": "COMMON",
+    "filename": "IC-COM-Logic-Buffer"
+  },
+  {
+    "id": "ic-com-logic-inverter",
+    "name": "Inverter (Inverted Buffer)",
+    "category": "IC",
+    "subCategory": "LOGIC",
+    "standard": "COMMON",
+    "filename": "IC-COM-Logic-Inverter"
+  },
+  {
+    "id": "ic-com-logic-and",
+    "name": "Logic AND",
+    "category": "IC",
+    "subCategory": "LOGIC",
+    "standard": "COMMON",
+    "filename": "IC-COM-Logic-AND"
+  },
+  {
+    "id": "ic-com-logic-nand",
+    "name": "Logic NAND",
+    "category": "IC",
+    "subCategory": "LOGIC",
+    "standard": "COMMON",
+    "filename": "IC-COM-Logic-NAND"
+  },
+  {
+    "id": "ic-com-logic-nor",
+    "name": "Logic NOR",
+    "category": "IC",
+    "subCategory": "LOGIC",
+    "standard": "COMMON",
+    "filename": "IC-COM-Logic-NOR"
+  },
+  {
+    "id": "ic-com-logic-or",
+    "name": "Logic OR",
+    "category": "IC",
+    "subCategory": "LOGIC",
+    "standard": "COMMON",
+    "filename": "IC-COM-Logic-OR"
+  },
+  {
+    "id": "ic-com-logic-xnor",
+    "name": "Logic XNOR",
+    "category": "IC",
+    "subCategory": "LOGIC",
+    "standard": "COMMON",
+    "filename": "IC-COM-Logic-XNOR"
+  },
+  {
+    "id": "ic-com-logic-xor",
+    "name": "Logic XOR",
+    "category": "IC",
+    "subCategory": "LOGIC",
+    "standard": "COMMON",
+    "filename": "IC-COM-Logic-XOR"
+  },
+  {
+    "id": "inductor-com-variable",
+    "name": "Variable Inductor",
+    "category": "INDUCTOR",
+    "standard": "COMMON",
+    "filename": "Inductor-COM-Variable"
+  },
+  {
+    "id": "inductor-com-tapped",
+    "name": "Tapped Inductor",
+    "category": "INDUCTOR",
+    "standard": "COMMON",
+    "filename": "Inductor-COM-Tapped"
+  },
+  {
+    "id": "inductor-com-magnetic",
+    "name": "Inductor (Magnetic/Ferrite Core)",
+    "category": "INDUCTOR",
+    "standard": "COMMON",
+    "filename": "Inductor-COM-Magnetic"
+  },
+  {
+    "id": "inductor-com-ferrite-bead",
+    "name": "Ferrite Bead",
+    "category": "INDUCTOR",
+    "standard": "COMMON",
+    "filename": "Inductor-COM-Ferrite-Bead"
+  },
+  {
+    "id": "inductor-com-air",
+    "name": "Inductor (Air-Core)",
+    "category": "INDUCTOR",
+    "standard": "COMMON",
+    "filename": "Inductor-COM-Air"
+  },
+  {
+    "id": "miscellaneous-com-probe_point",
+    "name": "Probe Point",
+    "category": "MISCELLANEOUS",
+    "standard": "COMMON",
+    "filename": "Miscellaneous-COM-Probe_Point"
+  },
+  {
+    "id": "miscellaneous-com-optocoupler",
+    "name": "Optocoupler",
+    "category": "MISCELLANEOUS",
+    "standard": "COMMON",
+    "filename": "Miscellaneous-COM-Optocoupler"
+  },
+  {
+    "id": "miscellaneous-com-lamp-indicator",
+    "name": "Indicator Lamp",
+    "category": "MISCELLANEOUS",
+    "standard": "COMMON",
+    "filename": "Miscellaneous-COM-Lamp-Indicator"
+  },
+  {
+    "id": "miscellaneous-com-lamp-incandescent",
+    "name": "Incadecent Lamp",
+    "category": "MISCELLANEOUS",
+    "standard": "COMMON",
+    "filename": "Miscellaneous-COM-Lamp-Incandescent"
+  },
+  {
+    "id": "miscellaneous-com-dac",
+    "name": "Digital-to-Analog (DTA) Converter",
+    "category": "MISCELLANEOUS",
+    "standard": "COMMON",
+    "filename": "Miscellaneous-COM-DAC"
+  },
+  {
+    "id": "miscellaneous-com-crystal_oscillator",
+    "name": "Crystal Oscillator",
+    "category": "MISCELLANEOUS",
+    "standard": "COMMON",
+    "filename": "Miscellaneous-COM-Crystal_Oscillator"
+  },
+  {
+    "id": "miscellaneous-com-adc",
+    "name": "Analog-to-Digital (ATD) Converter",
+    "category": "MISCELLANEOUS",
+    "standard": "COMMON",
+    "filename": "Miscellaneous-COM-ADC"
+  },
+  {
+    "id": "relay-ieee-spst-no",
+    "name": "SPST Relay Normally-Open",
+    "category": "RELAY",
+    "standard": "IEEE",
+    "filename": "Relay-IEEE-SPST-NO"
+  },
+  {
+    "id": "relay-ieee-spst-nc",
+    "name": "SPST Relay Normally-Closed",
+    "category": "RELAY",
+    "standard": "IEEE",
+    "filename": "Relay-IEEE-SPST-NC"
+  },
+  {
+    "id": "relay-ieee-spdt",
+    "name": "SPDT Relay",
+    "category": "RELAY",
+    "standard": "IEEE",
+    "filename": "Relay-IEEE-SPDT"
+  },
+  {
+    "id": "relay-iec-spst-no",
+    "name": "SPST Relay Normally-Open",
+    "category": "RELAY",
+    "standard": "IEC",
+    "filename": "Relay-IEC-SPST-NO"
+  },
+  {
+    "id": "relay-iec-spst-nc",
+    "name": "SPST Relay Normally-Closed",
+    "category": "RELAY",
+    "standard": "IEC",
+    "filename": "Relay-IEC-SPST-NC"
+  },
+  {
+    "id": "relay-iec-spdt",
+    "name": "SPDT Relay",
+    "category": "RELAY",
+    "standard": "IEC",
+    "filename": "Relay-IEC-SPDT"
+  },
+  {
+    "id": "relay-com-com-spst-no",
+    "name": "SPST Relay Normally-Open (Common Style)",
+    "category": "RELAY",
+    "standard": "COMMON",
+    "filename": "Relay-COM-COM-SPST-NO"
+  },
+  {
+    "id": "relay-com-com-spst-nc",
+    "name": "SPST Relay Normally-Closed (Common Style)",
+    "category": "RELAY",
+    "standard": "COMMON",
+    "filename": "Relay-COM-COM-SPST-NC"
+  },
+  {
+    "id": "relay-com-com-spdt",
+    "name": "SPDT Relay (Common Style)",
+    "category": "RELAY",
+    "standard": "COMMON",
+    "filename": "Relay-COM-COM-SPDT"
+  },
+  {
+    "id": "resistor-com-memristor",
+    "name": "Memristor",
+    "category": "RESISTOR",
+    "standard": "COMMON",
+    "filename": "Resistor-COM-Memristor"
+  },
+  {
+    "id": "resistor-ieee-standard",
+    "name": "Resistor (IEEE/ANSI)",
+    "category": "RESISTOR",
+    "standard": "IEEE",
+    "filename": "Resistor-IEEE-Standard"
+  },
+  {
+    "id": "resistor-ieee-varistor",
+    "name": "Varistor (IEEE/ANSI)",
+    "category": "RESISTOR",
+    "standard": "IEEE",
+    "filename": "Resistor-IEEE-Varistor"
+  },
+  {
+    "id": "resistor-ieee-trimmer",
+    "name": "Trimmer / Trim-Pot (IEEE/ANSI)",
+    "category": "RESISTOR",
+    "standard": "IEEE",
+    "filename": "Resistor-IEEE-Trimmer"
+  },
+  {
+    "id": "resistor-ieee-thermistor",
+    "name": "Thermistor (IEEE/ANSI)",
+    "category": "RESISTOR",
+    "standard": "IEEE",
+    "filename": "Resistor-IEEE-Thermistor"
+  },
+  {
+    "id": "resistor-ieee-rheostat",
+    "name": "Rheostat / Variable Resistor (IEEE/ANSI)",
+    "category": "RESISTOR",
+    "standard": "IEEE",
+    "filename": "Resistor-IEEE-Rheostat"
+  },
+  {
+    "id": "resistor-ieee-potentiometer",
+    "name": "Potentiometer (IEEE/ANSI)",
+    "category": "RESISTOR",
+    "standard": "IEEE",
+    "filename": "Resistor-IEEE-Potentiometer"
+  },
+  {
+    "id": "resistor-ieee-photoresistor",
+    "name": "Photoresistor (IEEE/ANSI)",
+    "category": "RESISTOR",
+    "standard": "IEEE",
+    "filename": "Resistor-IEEE-Photoresistor"
+  },
+  {
+    "id": "resistor-iec-standard",
+    "name": "Resistor",
+    "category": "RESISTOR",
+    "standard": "IEC",
+    "filename": "Resistor-IEC-Standard"
+  },
+  {
+    "id": "resistor-iec-varistor",
+    "name": "Varistor",
+    "category": "RESISTOR",
+    "standard": "IEC",
+    "filename": "Resistor-IEC-Varistor"
+  },
+  {
+    "id": "resistor-iec-trimmer",
+    "name": "Trimmer / Trim-Pot",
+    "category": "RESISTOR",
+    "standard": "IEC",
+    "filename": "Resistor-IEC-Trimmer"
+  },
+  {
+    "id": "resistor-iec-thermistor",
+    "name": "Themistor",
+    "category": "RESISTOR",
+    "standard": "IEC",
+    "filename": "Resistor-IEC-Thermistor"
+  },
+  {
+    "id": "resistor-iec-rheostat",
+    "name": "Rheostat / Variable Resistor",
+    "category": "RESISTOR",
+    "standard": "IEC",
+    "filename": "Resistor-IEC-Rheostat"
+  },
+  {
+    "id": "resistor-iec-potentiometer",
+    "name": "Potentiometer",
+    "category": "RESISTOR",
+    "standard": "IEC",
+    "filename": "Resistor-IEC-Potentiometer"
+  },
+  {
+    "id": "resistor-iec-photoresistor",
+    "name": "Photoresistor",
+    "category": "RESISTOR",
+    "standard": "IEC",
+    "filename": "Resistor-IEC-Photoresistor"
+  },
+  {
+    "id": "source-com-photovoltaic",
+    "name": "Photovoltaic Solar Cell",
+    "category": "SOURCE",
+    "standard": "COMMON",
+    "filename": "Source-COM-Photovoltaic"
+  },
+  {
+    "id": "source-com-dc",
+    "name": "DC Voltage Source",
+    "category": "SOURCE",
+    "standard": "COMMON",
+    "filename": "Source-COM-DC"
+  },
+  {
+    "id": "source-com-dc-controlled",
+    "name": "Controlled DC Source",
+    "category": "SOURCE",
+    "standard": "COMMON",
+    "filename": "Source-COM-DC-Controlled"
+  },
+  {
+    "id": "source-com-current",
+    "name": "Current Source",
+    "category": "SOURCE",
+    "standard": "COMMON",
+    "filename": "Source-COM-Current"
+  },
+  {
+    "id": "source-com-current-controlled",
+    "name": "Controlled Current Source",
+    "category": "SOURCE",
+    "standard": "COMMON",
+    "filename": "Source-COM-Current-Controlled"
+  },
+  {
+    "id": "source-com-battery-single",
+    "name": "Battery (Single Cell)",
+    "category": "SOURCE",
+    "standard": "COMMON",
+    "filename": "Source-COM-Battery-Single"
+  },
+  {
+    "id": "source-com-battery-multiple",
+    "name": "Battery (Multiple Cells)",
+    "category": "SOURCE",
+    "standard": "COMMON",
+    "filename": "Source-COM-Battery-Multiple"
+  },
+  {
+    "id": "source-com-ac",
+    "name": "AC Voltage Source",
+    "category": "SOURCE",
+    "standard": "COMMON",
+    "filename": "Source-COM-AC"
+  },
+  {
+    "id": "source-com-square",
+    "name": "Square Wave Generator",
+    "category": "SOURCE",
+    "subCategory": "FUNCTION",
+    "standard": "COMMON",
+    "filename": "Source-COM-Square"
+  },
+  {
+    "id": "source-com-triangle",
+    "name": "Triangle Wave Generator",
+    "category": "SOURCE",
+    "subCategory": "FUNCTION",
+    "standard": "COMMON",
+    "filename": "Source-COM-Triangle"
+  },
+  {
+    "id": "switch-com-spst",
+    "name": "SPST Switch",
+    "category": "SWITCH",
+    "standard": "COMMON",
+    "filename": "Switch-COM-SPST"
+  },
+  {
+    "id": "switch-com-spdt",
+    "name": "SPDT Switch",
+    "category": "SWITCH",
+    "standard": "COMMON",
+    "filename": "Switch-COM-SPDT"
+  },
+  {
+    "id": "switch-com-dpst",
+    "name": "DPST Switch",
+    "category": "SWITCH",
+    "standard": "COMMON",
+    "filename": "Switch-COM-DPST"
+  },
+  {
+    "id": "switch-com-dpdt",
+    "name": "DPDT Switch",
+    "category": "SWITCH",
+    "standard": "COMMON",
+    "filename": "Switch-COM-DPDT"
+  },
+  {
+    "id": "switch-com-pushbutton-nc",
+    "name": "Pushbutton Normally-Closed",
+    "category": "SWITCH",
+    "subCategory": "MOMENTARY",
+    "standard": "COMMON",
+    "filename": "Switch-COM-Pushbutton-NC"
+  },
+  {
+    "id": "switch-com-pushbutton-no",
+    "name": "Pushbutton Normally-Open",
+    "category": "SWITCH",
+    "subCategory": "MOMENTARY",
+    "standard": "COMMON",
+    "filename": "Switch-COM-Pushbutton-NO"
+  },
+  {
+    "id": "switch-com-pushbutton-two_circuit",
+    "name": "Pushbutton Two-Circuit",
+    "category": "SWITCH",
+    "subCategory": "MOMENTARY",
+    "standard": "COMMON",
+    "filename": "Switch-COM-Pushbutton-Two_Circuit"
+  },
+  {
+    "id": "transformer-com-center",
+    "name": "Center-Tapped Transformer",
+    "category": "TRANSFORMER",
+    "standard": "COMMON",
+    "filename": "Transformer-COM-Center"
+  },
+  {
+    "id": "transformer-com-center-double",
+    "name": "Double-Center-Tapped Transformer",
+    "category": "TRANSFORMER",
+    "standard": "COMMON",
+    "filename": "Transformer-COM-Center-Double"
+  },
+  {
+    "id": "transformer-com-standard",
+    "name": "Transformer",
+    "category": "TRANSFORMER",
+    "standard": "COMMON",
+    "filename": "Transformer-COM-Standard"
+  },
+  {
+    "id": "transistor-com-phototransitor",
+    "name": "Phototransistor",
+    "category": "TRANSISTOR",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-Phototransitor"
+  },
+  {
+    "id": "transistor-com-jfet-p",
+    "name": "JFET-P",
+    "category": "TRANSISTOR",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-JFET-P"
+  },
+  {
+    "id": "transistor-com-jfet-n",
+    "name": "JFET-N",
+    "category": "TRANSISTOR",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-JFET-N"
+  },
+  {
+    "id": "transistor-com-darlington-pnp",
+    "name": "PNP Darlington Pair",
+    "category": "TRANSISTOR",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-Darlington-PNP"
+  },
+  {
+    "id": "transistor-com-darlington-npn",
+    "name": "NPN Darlington Pair",
+    "category": "TRANSISTOR",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-Darlington-NPN"
+  },
+  {
+    "id": "transistor-com-bjt-pnp",
+    "name": "PNP Transistor",
+    "category": "TRANSISTOR",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-BJT-PNP"
+  },
+  {
+    "id": "transistor-com-bjt-npn",
+    "name": "NPN Transistor",
+    "category": "TRANSISTOR",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-BJT-NPN"
+  },
+  {
+    "id": "transistor-com-mosfet-n",
+    "name": "N-Channel MOSFET",
+    "category": "TRANSISTOR",
+    "subCategory": "MOSFET",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-MOSFET-N"
+  },
+  {
+    "id": "transistor-com-mosfet-n-depletion",
+    "name": "N-Channel MOSFET in Depletion Mode",
+    "category": "TRANSISTOR",
+    "subCategory": "MOSFET",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-MOSFET-N-Depletion"
+  },
+  {
+    "id": "transistor-com-mosfet-n-enhancement",
+    "name": "N-Channel MOSFET in Enhancement Mode",
+    "category": "TRANSISTOR",
+    "subCategory": "MOSFET",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-MOSFET-N-Enhancement"
+  },
+  {
+    "id": "transistor-com-mosfet-p",
+    "name": "P-Channel MOSFET",
+    "category": "TRANSISTOR",
+    "subCategory": "MOSFET",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-MOSFET-P"
+  },
+  {
+    "id": "transistor-com-mosfet-p-depletion",
+    "name": "P-Channel MOSFET in Depletion Mode",
+    "category": "TRANSISTOR",
+    "subCategory": "MOSFET",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-MOSFET-P-Depletion"
+  },
+  {
+    "id": "transistor-com-mosfet-p-enhancement",
+    "name": "P-Channel MOSFET in Enhancement Mode",
+    "category": "TRANSISTOR",
+    "subCategory": "MOSFET",
+    "standard": "COMMON",
+    "filename": "Transistor-COM-MOSFET-P-Enhancement"
+  }
+]
