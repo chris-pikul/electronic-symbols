@@ -568,7 +568,7 @@
   },
   {
     "id": "resistor-iec-thermistor",
-    "name": "Themistor",
+    "name": "Thermistor",
     "category": "RESISTOR",
     "standard": "IEC",
     "filename": "Resistor-IEC-Thermistor"
